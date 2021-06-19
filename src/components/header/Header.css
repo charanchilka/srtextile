@@ -1,0 +1,108 @@
+.nav{
+    background: #003445;
+    height: 100px;
+    width: 100%;
+    color: #fff;
+}
+
+.logo_font{
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.72em;
+}
+
+.header_row{
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+
+.menu_spacing{
+    margin-right: 70px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+}
+
+.menu_spacing_contact{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+}
+
+.logo_font_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.hamberger_icon{
+    display: none;
+}
+
+#home,
+#aboutUs,
+#products,
+#infra,
+#contact{
+    display: block;
+}
+
+@media (max-width: 576px) {
+    #home,
+    #aboutUs,
+    #products,
+    #infra,
+    #contact{
+        display: none;
+    }
+
+    .logo_font{
+        font-size: 20px;
+        letter-spacing: 11px;
+    }
+    .nav{
+        height: 52px;
+    }
+
+    .logo_font_container{
+        justify-content: space-between;
+        margin-bottom: 0px;
+    }
+    .header_row{
+        padding: 0px 12px;
+    }
+    .hamberger_icon{
+        display: block;
+    }
+}
+
+@media (max-width: 786px) and (min-width: 576px) {
+    #home,
+    #aboutUs,
+    #products,
+    #infra,
+    #contact{
+        display: none;
+    }
+
+    .logo_font{
+        font-size: 20px;
+        letter-spacing: 11px;
+    }
+    .nav{
+        height: 52px;
+    }
+
+    .logo_font_container{
+        justify-content: space-between;
+        margin-bottom: 0px;
+    }
+    .header_row{
+        padding: 0px 12px;
+    }
+    .hamberger_icon{
+        display: block;
+    }
+}
