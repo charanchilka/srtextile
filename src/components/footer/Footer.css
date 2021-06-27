@@ -1,0 +1,45 @@
+.footer{
+    height: 470px;
+    background: #003445;
+    padding: 100px;
+    position: relative;
+}
+
+.footer-container{
+    /* width: 90%; */
+    margin: 0 auto;
+    color: #fff;
+}
+
+.logo{
+    font-size: 28px;
+    letter-spacing: 10px;
+    color: white;
+    font-family: 'Lemon/Milk';
+}
+
+.quick-link{
+    color: white;
+    padding-bottom: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    font-size: 14px;
+    line-height: 35px;
+    color: #D9DBE1;
+}
+
+.water-mark{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.copy-right{
+    margin-top: 30px;
+    font-size: 0.8rem;
+}
