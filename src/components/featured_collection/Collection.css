@@ -1,0 +1,61 @@
+.main-collection{
+    height: 700px;
+    display: flex;
+}
+
+.img-style{
+    height: 361px;
+    width: 540px;
+}
+
+.featured-collection{
+    padding-top: 80px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #999999;
+}
+
+.customized-goods{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Sen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 77px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: #111111;
+    padding: 40px 50px 40px 165px;
+}
+
+.text-content{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 0px 0px 0px 165px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+}
+
+.view-button{
+    position: absolute;
+    width: 237px;
+    height: 48px;
+    left: 160px;
+    top: 503px;
+    background: #003445;
+    border-radius: 30px;
+    color: #FFFFFF;
+}

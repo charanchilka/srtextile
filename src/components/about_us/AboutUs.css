@@ -21,3 +21,11 @@
     position: absolute;
     transform: translate(-50%, -50%);
 }
+
+.button-style{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}

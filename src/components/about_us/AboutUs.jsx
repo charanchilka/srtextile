@@ -19,7 +19,7 @@ const Header = () => {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum diam orci pretium a pharetra, feugiat cursus. Dictumst risus, sem egestas odio cras adipiscing vulputate. Nisi, risus in suscipit non. Non commodo volutpat, pharetra, vel.</p>
                             </div>
                         </div>
-                        <button className=""> Read More <span> <img src={Arrow} alt="arrow" /></span></button>
+                        <button className="button-style"> Read More <span> <img src={Arrow} alt="arrow" /></span></button>
                     </div>
                 </div>
             </div>
