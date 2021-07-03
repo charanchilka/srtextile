@@ -12,9 +12,38 @@
 }
 
 .cards{
-    width: 250px;
-    height: 254px;            
+    flex-direction: column;
+    height: 254px;
+    width: 366px;
     background: #F5FCFF;
     box-shadow: 0px 12px 28px rgb(0 0 0 / 8%);
     border-radius: 8px;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.cards-header{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #003445;
+}
+.cards-content{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.04em;
+    color: #003445;
+    margin-bottom: 0px;
 }
