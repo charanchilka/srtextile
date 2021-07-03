@@ -3,7 +3,7 @@
 }
 
 .get-deal{
-    font-family: Sen;
+    font-family: 'Sen', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
@@ -23,13 +23,13 @@
     align-items: center;
     justify-content: center;
     padding: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 
 }
 
 .cards-header{
-    font-family: Inter;
+   font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -38,7 +38,7 @@
     color: #003445;
 }
 .cards-content{
-    font-family: Inter;
+   font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
