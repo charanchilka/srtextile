@@ -1,0 +1,50 @@
+.main-style{
+    height: 636px;
+    background-color: #003445;
+    display: flex;
+}
+
+.get-in-touch-col{
+    padding-left: 95px;
+}
+
+.get-in-touch{
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 115px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -1.5px;
+    color: #FFFFFF;
+}
+
+.sub-para{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -1.5px;
+    color: #FFFFFF;
+}
+
+.Connect-with-Us{
+    width: 259.89px;
+    height: 48px;
+    background: #F5FCFF;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    font-family: 'Inter', sans-serif;
+    margin-top: 30px;
+    border: none;
+    color: #003445;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
