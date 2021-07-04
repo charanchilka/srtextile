@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/srtextile/static/css/main.588aeb30.chunk.css",
-    "main.js": "/srtextile/static/js/main.56548226.chunk.js",
-    "main.js.map": "/srtextile/static/js/main.56548226.chunk.js.map",
-    "runtime-main.js": "/srtextile/static/js/runtime-main.f6a83bec.js",
-    "runtime-main.js.map": "/srtextile/static/js/runtime-main.f6a83bec.js.map",
+    "main.css": "/srtextile/static/css/main.679466e9.chunk.css",
+    "main.js": "/srtextile/static/js/main.39de9963.chunk.js",
+    "main.js.map": "/srtextile/static/js/main.39de9963.chunk.js.map",
+    "runtime-main.js": "/srtextile/static/js/runtime-main.4d48fc8b.js",
+    "runtime-main.js.map": "/srtextile/static/js/runtime-main.4d48fc8b.js.map",
     "static/js/2.54b44f64.chunk.js": "/srtextile/static/js/2.54b44f64.chunk.js",
     "static/js/2.54b44f64.chunk.js.map": "/srtextile/static/js/2.54b44f64.chunk.js.map",
-    "static/js/3.97889d32.chunk.js": "/srtextile/static/js/3.97889d32.chunk.js",
-    "static/js/3.97889d32.chunk.js.map": "/srtextile/static/js/3.97889d32.chunk.js.map",
+    "static/js/3.07fe7d78.chunk.js": "/srtextile/static/js/3.07fe7d78.chunk.js",
+    "static/js/3.07fe7d78.chunk.js.map": "/srtextile/static/js/3.07fe7d78.chunk.js.map",
     "index.html": "/srtextile/index.html",
-    "static/css/main.588aeb30.chunk.css.map": "/srtextile/static/css/main.588aeb30.chunk.css.map",
+    "static/css/main.679466e9.chunk.css.map": "/srtextile/static/css/main.679466e9.chunk.css.map",
     "static/js/2.54b44f64.chunk.js.LICENSE.txt": "/srtextile/static/js/2.54b44f64.chunk.js.LICENSE.txt",
     "static/media/Arrow.13e05012.svg": "/srtextile/static/media/Arrow.13e05012.svg",
     "static/media/Location.8cee091b.svg": "/srtextile/static/media/Location.8cee091b.svg",
     "static/media/Mobile.51b69000.svg": "/srtextile/static/media/Mobile.51b69000.svg",
+    "static/media/bath_rob.3fbc6396.svg": "/srtextile/static/media/bath_rob.3fbc6396.svg",
     "static/media/dealWithUs.4260de07.svg": "/srtextile/static/media/dealWithUs.4260de07.svg",
     "static/media/dribble-icon.05c0b9be.svg": "/srtextile/static/media/dribble-icon.05c0b9be.svg",
     "static/media/emailIcon.80ef9802.svg": "/srtextile/static/media/emailIcon.80ef9802.svg",
@@ -30,9 +31,9 @@
     "static/media/youtube-icon.05c0b9be.svg": "/srtextile/static/media/youtube-icon.05c0b9be.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f6a83bec.js",
+    "static/js/runtime-main.4d48fc8b.js",
     "static/js/2.54b44f64.chunk.js",
-    "static/css/main.588aeb30.chunk.css",
-    "static/js/main.56548226.chunk.js"
+    "static/css/main.679466e9.chunk.css",
+    "static/js/main.39de9963.chunk.js"
   ]
 }
