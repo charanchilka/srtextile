@@ -93,7 +93,7 @@
         font-size: 16px;
         color: #666666;
     }
-    
+
     .image-position{
         width: 201px;
     } 
@@ -104,7 +104,7 @@
     font-size: 16px;
     } 
 }
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1800px) {
     .about-us-main{
         
         align-items: center;
