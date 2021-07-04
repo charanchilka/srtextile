@@ -1,9 +1,7 @@
 .about-us-main{
     height: 800px;
     background: #F5FCFF;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+    
 }
 
 .about-towel{
@@ -29,3 +27,90 @@
     overflow: hidden;
     outline: none;
 }
+
+@media (max-width: 576px) {
+    .about-us-main{
+        padding: 40px 0px;
+    }
+    .about-towel{
+        width: 323px;
+        height: 323px;
+    }
+    .about-content{
+        margin-top: 20px;
+    }
+    .about-content p{
+        font-size: 16px;
+        color: #666666;
+    }
+    .image-position{
+        width: 201px;
+    }
+    .read-more{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    }
+}
+@media (max-width: 786px) and (min-width: 576px) {
+      .about-us-main{
+        padding: 40px 0px;
+    }
+  .about-towel{
+        width: 323px;
+        height: 323px;
+    }
+    .about-content{
+        margin-top: 20px;
+    }
+    .about-content p{
+        font-size: 16px;
+        color: #666666;
+    }
+    .image-position{
+        width: 201px;
+    }
+      .read-more{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    }
+}
+@media (max-width: 992px) and (min-width: 786px) {
+      .about-us-main{
+        padding: 40px 0px;
+    }
+    .about-towel{
+        width: 323px;
+        height: 323px;
+    }
+    .about-content{
+        margin-top: 20px;
+    }
+    .about-content p{
+        font-size: 16px;
+        color: #666666;
+    }
+    
+    .image-position{
+        width: 201px;
+    } 
+      .read-more{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    } 
+}
+@media (min-width: 992px) {
+    .about-us-main{
+        
+        align-items: center;
+        justify-content: center;
+  
+    display: flex;
+    }
+}
+
