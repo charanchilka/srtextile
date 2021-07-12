@@ -1,0 +1,16 @@
+.carouselMainContainer{
+    height: 695px;    
+}
+.carousel{
+    height: 100%;
+
+}
+.slidingImage{
+    display: block;
+    width: 100%;
+    position: relative;
+    height: 695px;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+}
