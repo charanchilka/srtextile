@@ -1,8 +1,17 @@
 .nav{
-    background: #003445;
+    /* background: #003445;
     height: 100px;
     width: 100%;
-    color: #fff;
+    color: #fff; */
+    background: #0000003d;
+    width: 100%;
+    color: #003445;
+    padding: 14px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    background: linear-gradient(#00000096, #ffffff00);
 }
 
 .logo_font{
