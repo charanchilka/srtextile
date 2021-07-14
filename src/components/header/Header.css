@@ -5,13 +5,14 @@
     color: #fff; */
     background: #0000003d;
     width: 100%;
-    color: #003445;
+    color: #fff;
     padding: 14px;
     position: fixed;
     left: 0px;
     top: 0px;
     z-index: 1;
     background: linear-gradient(#00000096, #ffffff00);
+    /* background: rgb(0 0 0 / 20%); */
 }
 
 .logo_font{

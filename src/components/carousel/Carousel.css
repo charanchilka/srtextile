@@ -1,5 +1,5 @@
 .carouselMainContainer{
-    height: 695px;    
+    height: 550px;    
 }
 .carousel{
     height: 100%;
@@ -9,8 +9,18 @@
     display: block;
     width: 100%;
     position: relative;
-    height: 695px;
+    height: 550px;
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center;
+}
+.carousel-indicators li{
+    width: 20px;
+    height: 20px;
+    margin-right: 9px;
+    margin-left: 9px;
+    border-radius: 50%;
+}
+.carousel-indicators .active{
+    background-color: #003445;
 }
