@@ -12,12 +12,12 @@ import Caraousel from '../carousel/Carousel';
 class Dashboard extends React.Component {
 
     state = {
-        navBackground: "normal"
+        navBackground: "transparent"
       };
     
       componentDidMount() {
         document.addEventListener("scroll", () => {
-          const backgroundcolor = window.scrollY < 70 ? "normal" : "transparent";
+          const backgroundcolor = window.scrollY < 500 ? "transparent" : "bold";
           this.setState({ navBackground: backgroundcolor });
         });
       }
