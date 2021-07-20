@@ -3,7 +3,7 @@
     height: 100px;
     width: 100%;
     color: #fff; */
-    background: #0000003d;
+    background: rgba(0, 0, 0, 0.24);
     width: 100%;
     color: #fff;
     padding: 14px;
@@ -11,7 +11,7 @@
     left: 0px;
     top: 0px;
     z-index: 1;
-    background: linear-gradient(#00000096, #ffffff00);
+    /* background: linear-gradient(#00000096, #ffffff00); */
     /* background: rgb(0 0 0 / 20%); */
 }
 
@@ -73,7 +73,9 @@
         letter-spacing: 11px;
     }
     .nav{
-        height: 52px;
+        padding: 2px;
+        background: #fff;
+        color: #003445;
     }
 
     .logo_font_container{
@@ -102,7 +104,9 @@
         letter-spacing: 11px;
     }
     .nav{
-        height: 52px;
+        padding: 2px;
+        background: #fff;
+        color: #003445;
     }
 
     .logo_font_container{

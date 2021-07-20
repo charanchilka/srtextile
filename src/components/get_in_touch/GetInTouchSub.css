@@ -48,3 +48,9 @@
     line-height: 25px;
     letter-spacing: 1px;
 }
+
+@media (max-width: 576px) {
+    .main-style img{
+        width: 235px;
+    }
+}
