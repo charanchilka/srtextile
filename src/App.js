@@ -9,7 +9,7 @@ function App() {
   const [set, set_screen] = useState(splash_is_enable)
   setTimeout(() => {
     set_screen(false)
-  }, 10000);
+  }, 1000);
 
   return (
     <div className="App">
