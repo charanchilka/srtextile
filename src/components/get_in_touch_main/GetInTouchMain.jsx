@@ -29,16 +29,36 @@ import Footer from '../footer/Footer'
             <div className="contentForm">
               <div className="row g-0">
                 <div className="col-12">
-                  
+                  <div className="row g-0">
+                    <div className="col-1">
+                    <i class="far fa-user"></i>
+                    </div>
+                    <div className="col-11">
+                    <div class="form-group">
+                    <label for="usr">Name</label>
+                    <input type="text" class="form-control" id="usr"/>
+                  </div>
+                    </div>
+                  </div>
+                 
                 </div>
                 <div className="col-12">
-                  
+                <div class="form-group">
+                    <label for="usr">Email ID</label>
+                    <input type="email" class="form-control" id="usr"/>
+                  </div>
                 </div>
                 <div className="col-12">
-                  
+                <div class="form-group">
+                    <label for="usr">Phone No.</label>
+                    <input type="tel" class="form-control" id="usr"/>
+                  </div>
                 </div>
                 <div className="col-12">
-                  
+                <div class="form-group">
+                    <label for="usr">Message:</label>
+                    <textarea  rows="2" class="form-control" id="usr"></textarea>
+                  </div>
                 </div>
               </div>
             </div>

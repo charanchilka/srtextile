@@ -1,7 +1,5 @@
 import "./GetInTouchSub.css";
 import Bathrob from "../../Assets/Images/bath_rob.svg";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import GetInTouchMain from "../get_in_touch_main/GetInTouchMain"
 
 const GetInTouchSub = () => {
   return (
