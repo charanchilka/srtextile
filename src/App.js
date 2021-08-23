@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './App.css';
 import SplashScreen from './components/splash_screen/SplashScreen';
-import Dashboard from './components/dashboard/Dashboard';
+import Dashboard from './components/dashboard/Dashboard'
 
 function App() {
 
@@ -14,6 +14,7 @@ function App() {
   return (
     <div className="App">
       {set === true ? <SplashScreen/> : <Dashboard/>}
+     
     </div>
   );
 }
