@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/srtextile/static/css/main.99fe5445.chunk.css",
-    "main.js": "/srtextile/static/js/main.d8434db7.chunk.js",
-    "main.js.map": "/srtextile/static/js/main.d8434db7.chunk.js.map",
-    "runtime-main.js": "/srtextile/static/js/runtime-main.18a0c494.js",
-    "runtime-main.js.map": "/srtextile/static/js/runtime-main.18a0c494.js.map",
-    "static/js/2.4884a563.chunk.js": "/srtextile/static/js/2.4884a563.chunk.js",
-    "static/js/2.4884a563.chunk.js.map": "/srtextile/static/js/2.4884a563.chunk.js.map",
-    "static/js/3.96cc7e68.chunk.js": "/srtextile/static/js/3.96cc7e68.chunk.js",
-    "static/js/3.96cc7e68.chunk.js.map": "/srtextile/static/js/3.96cc7e68.chunk.js.map",
+    "main.css": "/srtextile/static/css/main.bb6f909e.chunk.css",
+    "main.js": "/srtextile/static/js/main.79d3ba9a.chunk.js",
+    "main.js.map": "/srtextile/static/js/main.79d3ba9a.chunk.js.map",
+    "runtime-main.js": "/srtextile/static/js/runtime-main.2cc3dd83.js",
+    "runtime-main.js.map": "/srtextile/static/js/runtime-main.2cc3dd83.js.map",
+    "static/js/2.1746306c.chunk.js": "/srtextile/static/js/2.1746306c.chunk.js",
+    "static/js/2.1746306c.chunk.js.map": "/srtextile/static/js/2.1746306c.chunk.js.map",
+    "static/js/3.d7ef1ec4.chunk.js": "/srtextile/static/js/3.d7ef1ec4.chunk.js",
+    "static/js/3.d7ef1ec4.chunk.js.map": "/srtextile/static/js/3.d7ef1ec4.chunk.js.map",
     "index.html": "/srtextile/index.html",
-    "static/css/main.99fe5445.chunk.css.map": "/srtextile/static/css/main.99fe5445.chunk.css.map",
-    "static/js/2.4884a563.chunk.js.LICENSE.txt": "/srtextile/static/js/2.4884a563.chunk.js.LICENSE.txt",
+    "static/css/main.bb6f909e.chunk.css.map": "/srtextile/static/css/main.bb6f909e.chunk.css.map",
+    "static/js/2.1746306c.chunk.js.LICENSE.txt": "/srtextile/static/js/2.1746306c.chunk.js.LICENSE.txt",
     "static/media/Arrow.6e6c40a3.svg": "/srtextile/static/media/Arrow.6e6c40a3.svg",
     "static/media/Location.90074487.svg": "/srtextile/static/media/Location.90074487.svg",
     "static/media/Mobile.181e4912.svg": "/srtextile/static/media/Mobile.181e4912.svg",
@@ -26,6 +26,7 @@
     "static/media/dealWithUs.4260de07.svg": "/srtextile/static/media/dealWithUs.4260de07.svg",
     "static/media/dribble-icon.19abc99e.svg": "/srtextile/static/media/dribble-icon.19abc99e.svg",
     "static/media/emailIcon.37314cbd.svg": "/srtextile/static/media/emailIcon.37314cbd.svg",
+    "static/media/getInTouchBack.962030ab.svg": "/srtextile/static/media/getInTouchBack.962030ab.svg",
     "static/media/hamburger_white.c6a8c0c0.svg": "/srtextile/static/media/hamburger_white.c6a8c0c0.svg",
     "static/media/hanger-watermark.87c5504f.svg": "/srtextile/static/media/hanger-watermark.87c5504f.svg",
     "static/media/image001.493c5d70.JPG": "/srtextile/static/media/image001.493c5d70.JPG",
@@ -38,9 +39,9 @@
     "static/media/youtube-icon.19abc99e.svg": "/srtextile/static/media/youtube-icon.19abc99e.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.18a0c494.js",
-    "static/js/2.4884a563.chunk.js",
-    "static/css/main.99fe5445.chunk.css",
-    "static/js/main.d8434db7.chunk.js"
+    "static/js/runtime-main.2cc3dd83.js",
+    "static/js/2.1746306c.chunk.js",
+    "static/css/main.bb6f909e.chunk.css",
+    "static/js/main.79d3ba9a.chunk.js"
   ]
 }
