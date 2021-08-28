@@ -11,7 +11,7 @@ const GetInTouchMain = lazy(
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="/srtextile">
+      <BrowserRouter basename="https://charanchilka.github.io/srtextile/">
         <Suspense fallback={<div />}>
           <Switch>
             <Route exact path="/" component={Dashboard} />
