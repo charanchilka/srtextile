@@ -15,7 +15,7 @@ function App() {
         <Suspense fallback={<div />}>
           <Switch>
             <Route exact path="/" component={Dashboard} />
-            <Route exact path="/get-in-touch" component={GetInTouchMain} />
+            <Route exact path="/#/get-in-touch" component={GetInTouchMain} />
           </Switch>
         </Suspense>
       </BrowserRouter>
