@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/srtextile/static/css/main.a856312d.chunk.css",
-    "main.js": "/srtextile/static/js/main.eb4f8f50.chunk.js",
-    "main.js.map": "/srtextile/static/js/main.eb4f8f50.chunk.js.map",
+    "main.js": "/srtextile/static/js/main.430d2d79.chunk.js",
+    "main.js.map": "/srtextile/static/js/main.430d2d79.chunk.js.map",
     "runtime-main.js": "/srtextile/static/js/runtime-main.2c6215ba.js",
     "runtime-main.js.map": "/srtextile/static/js/runtime-main.2c6215ba.js.map",
     "static/css/2.6f149a5d.chunk.css": "/srtextile/static/css/2.6f149a5d.chunk.css",
@@ -50,6 +50,6 @@
     "static/js/runtime-main.2c6215ba.js",
     "static/js/3.e604c5ea.chunk.js",
     "static/css/main.a856312d.chunk.css",
-    "static/js/main.eb4f8f50.chunk.js"
+    "static/js/main.430d2d79.chunk.js"
   ]
 }
