@@ -8,12 +8,13 @@ import GetDeal from "../get_a_deal/GetADeal";
 import GetInTouchSub from "../get_in_touch/GetInTouchSub";
 import ReachUsMap from "../reach_us/ReachUsMap";
 import Caraousel from "../carousel/Carousel";
-import GetInTouchMain from "../get_in_touch_main/GetInTouchMain";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import SplashScreen from '../splash_screen/SplashScreen';
 
 class Dashboard extends React.Component {
+
   state = {
     navBackground: "transparent",
+    splash_is_enable: true
   };
 
   componentDidMount() {
@@ -21,30 +22,28 @@ class Dashboard extends React.Component {
       const backgroundcolor = window.scrollY < 500 ? "transparent" : "bold";
       this.setState({ navBackground: backgroundcolor });
     });
+    setTimeout(() => {
+      this.setState({splash_is_enable:false})
+    }, 1000);
   }
 
   render() {
-    return (
-      <div>
-        <Router>
-          <Switch>
-            <Route path="/Get-In-Touch">
-              <GetInTouchMain />
-            </Route>
-            <Route path="/">
-              <Header background={this.state} />
-              <Caraousel />
-              <Collection />
-              <AboutUs />
-              <GetDeal />
-              <GetInTouchSub />
-              <ReachUsMap />
-              <Footer />
-            </Route>
-          </Switch>
-        </Router>
-      </div>
-    );
+    if (this.state.splash_is_enable) {
+      return(<SplashScreen />)
+    } else {
+      return (
+        <div>
+          <Header background={this.state} />
+          <Caraousel />
+          <Collection />
+          <AboutUs />
+          <GetDeal />
+          <GetInTouchSub />
+          <ReachUsMap />
+          <Footer />
+        </div>
+      );
+    }
   }
 }
 

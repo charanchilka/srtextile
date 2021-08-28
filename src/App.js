@@ -1,22 +1,28 @@
-import React, {useState} from 'react';
+import React, { Suspense, lazy } from 'react';
 import './App.css';
-import SplashScreen from './components/splash_screen/SplashScreen';
-import Dashboard from './components/dashboard/Dashboard'
+import { Route, BrowserRouter, Switch } from "react-router-dom";
+const Dashboard = lazy(
+  () => import("./components/dashboard/Dashboard")
+);
+const GetInTouchMain = lazy(
+  () => import("./components/get_in_touch_main/GetInTouchMain")
+);
 
 function App() {
-
-  let splash_is_enable = true;
-  const [set, set_screen] = useState(splash_is_enable)
-  setTimeout(() => {
-    set_screen(false)
-  }, 1000);
-
   return (
     <div className="App">
-      {set === true ? <SplashScreen/> : <Dashboard/>}
-     
+      <BrowserRouter>
+        <Suspense fallback={<div />}>
+          <Switch>
+            <Route exact path="/" component={Dashboard} />
+            <Route exact path="/get-in-touch" component={GetInTouchMain} />
+          </Switch>
+        </Suspense>
+      </BrowserRouter>
     </div>
   );
 }
+
+
 
 export default App;
