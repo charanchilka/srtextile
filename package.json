@@ -1,6 +1,5 @@
 {
   "name": "sr-textile",
-  "homepage": "https://charanchilka.github.io/srtextile/",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
