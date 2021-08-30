@@ -2,7 +2,7 @@
     /* color: white; */
     color: #fff;
     font-family: 'Lemon/Milk';
-    font-size: 74px;
+    font-size: 44px;
     letter-spacing: 0.52em;
     /* font-family: 'Lemon/Milk light', sans-serif; */
 }
@@ -11,7 +11,7 @@
     .logo_font{
         max-width: 576px;
         width: 100%;
-        font-size: 40px;
+        font-size: 20px;
         letter-spacing: 0.12em;
     }
 }
@@ -21,7 +21,7 @@
         color: #003445;
         max-width: 786px;
         width: 100%;
-        font-size: 65px;
+        font-size: 20px;
         letter-spacing: 0.30em;
     }
 }

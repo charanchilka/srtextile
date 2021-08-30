@@ -7,6 +7,9 @@ const Dashboard = lazy(
 const GetInTouchMain = lazy(
   () => import("./components/get_in_touch_main/GetInTouchMain")
 );
+const AboutUsMain = lazy(
+  () => import("./components/about_us_main/about_us_main")
+);
 
 function App() {
   return (
@@ -16,6 +19,7 @@ function App() {
           <Switch>
             <Route exact path="/" component={Dashboard} />
             <Route exact path="/get-in-touch" component={GetInTouchMain} />
+            <Route exact path="/about-us" component={AboutUsMain} />
           </Switch>
         </Suspense>
       </BrowserRouter>

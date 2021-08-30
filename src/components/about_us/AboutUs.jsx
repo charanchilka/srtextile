@@ -20,7 +20,7 @@ const Header = () => {
                             </div>
                         </div>
                         <div className="read-more">
-                        <button className="button-style"> Read More <span> <img src={Arrow} alt="arrow" /></span></button>
+                        <button className="button-style"> <a href="/about-us"> Read More <span> <img src={Arrow} alt="arrow" /></span></a></button>
                         </div>
                     </div>
                 </div>

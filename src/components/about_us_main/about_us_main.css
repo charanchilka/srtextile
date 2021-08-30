@@ -1,0 +1,19 @@
+.aboutUsMainContainer{
+    width: 100%;
+    padding: 125px;
+}
+.aboutPara{
+    background: #F5FCFF;
+    border-radius: 8px;
+    padding: 50px;
+}
+.aboutHeading{
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    color: #003445;
+}
+.aboutPara p{
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+}
