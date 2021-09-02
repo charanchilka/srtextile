@@ -1,5 +1,5 @@
 import "./GetInTouchSub.css";
-import Bathrob from "../../Assets/Images/bath_rob.svg";
+import hangingNap from "../../Assets/Images/hangingNap.svg";
 
 const GetInTouchSub = () => {
   return (
@@ -18,7 +18,7 @@ const GetInTouchSub = () => {
             </div>
           </div>
           <div className="col-12 col-md-12 col-lg-6 col-sm-12 d-flex justify-content-end align-items-center">
-            <img src={Bathrob} alt="bath rob" height="446px" />
+            <img src={hangingNap} alt="bath rob" />
           </div>
         </div>
       </div>
