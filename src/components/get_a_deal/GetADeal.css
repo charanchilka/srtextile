@@ -1,6 +1,6 @@
 .main-getdeal{
-    height: 636px;
-    width: 1320px;
+    height: 580px;
+    width: 1190px;
     margin: 0 auto;
 }
 
@@ -48,7 +48,13 @@
     color: #003445;
     margin-bottom: 0px;
 }
-@media (max-width: 576px) {
+@media (max-width: 576px) and (min-width: 300px) {
+    .main-getdeal{
+        height: 580px;
+        max-width: 576px;
+        width: 100%;
+        margin: 0 auto;
+    }
 .cards{
     height: 254px;
     max-width: 336px;
@@ -62,4 +68,50 @@
     font-size: 36px;
     margin: 0px 15px 10px;
 }
+}
+@media (max-width: 786px) and (min-width: 576px) {
+    .main-getdeal{
+        height: 580px;
+        max-width: 576px;
+        width: 100%;
+        margin: 0 auto;
+    }
+.cards{
+    height: 254px;
+    max-width: 336px;
+    width: 100%;
+    margin: 15px auto;
+}
+.main-getdeal{
+    height: 1006px;
+}
+.get-deal{
+    font-size: 36px;
+    margin: 0px 15px 10px;
+}
+}
+@media (max-width: 992px) and (min-width: 786px) {
+    .main-getdeal{
+        max-width: 890px;
+        width: 100%;
+    }
+}
+@media (max-width: 1200px) and (min-width: 992px) {
+    .main-getdeal{
+        max-width: 860px;
+        width: 100%;
+    }
+    .cards{
+        width: 274px;
+    }
+}
+@media (max-width: 1400px) and (min-width: 1200px) {
+    .main-getdeal{
+        max-width: 1100px;
+        width: 100%;
+    }
+    .cards{
+        width: 344px;
+    }
+
 }

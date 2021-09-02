@@ -13,7 +13,7 @@ const Header = () => {
         <div className="footer">
             <div className="footer-container">
                 <div className="row">
-                    <div className="col-12 col-md-12 col-lg-3 col-sm-12">
+                    <div className="col-12 col-md-12 col-lg-12 col-xl-3 col-sm-12">
                     <h2 className="logo">SR TEXTILES</h2>
                     <div className="row no-gutters">
                         <div className="col-3"> <img src={InstaIcon} alt="social-media"/> </div>
@@ -62,7 +62,7 @@ const Header = () => {
                 </div>
                 <div className="row no-gutters copy-right">
                     <div className="col-12 col-md-12 col-lg-6 col-sm-12"> © 2021 SR Textile. All rights reserved</div>
-                    <div className="col-12 col-md-12 col-lg-6 col-sm-12text-right">Terms & Conditions | Privacy Policy | Disclaimer</div>
+                    <div className="col-12 col-md-12 col-lg-6 col-sm-12 text-right">Terms & Conditions | Privacy Policy | Disclaimer</div>
                 </div>
             </div>
             <img className="water-mark" src={HangerWaterMark} alt="water-mark"/>

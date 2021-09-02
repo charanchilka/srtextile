@@ -1,7 +1,7 @@
 .main-collection{
-    height: 700px;
+    height: 580px;
     display: flex;
-    width: 1320px;
+    width: 1190px;
     margin: 0 auto;
 }
 
@@ -10,7 +10,6 @@
 }
 
 .featured-collection{
-    padding-top: 50px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -62,10 +61,12 @@
 }
 
 
-@media (max-width: 576px) {
+@media (max-width: 576px) and (min-width: 300px) {
     .main-collection{
         height: 724px;
         padding: 0px 15px;
+        max-width: 576px;
+        width: 100%;
     }
     .img-style{
         max-width: 576px;
@@ -92,6 +93,12 @@ text-align: center;
 }
 
 @media (max-width: 786px) and (min-width: 576px) {
+    .main-collection{
+        height: 724px;
+        padding: 0px 15px;
+        max-width: 576px;
+        width: 100%;
+    }
     .img-style{
         max-width: 576px;
         width: 100%;
@@ -100,6 +107,34 @@ text-align: center;
     }
     .featured-collection{
 text-align: center;
+        font-size: 12px;
+    }
+    .customized-goods{
+        margin: 0px;
+        font-size: 36px;
+    }
+    .text-content{
+        text-align: center;
+        font-size: 16px;
+    }
+    .view-button-container{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width: 992px) and (min-width: 786px) {
+    .main-collection{
+        max-width: 890px;
+        width: 100%;
+    }
+    .img-style{
+        max-width: 576px;
+        width: 100%;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .featured-collection{
+        text-align: center;
         font-size: 12px;
     }
     .customized-goods{
@@ -115,15 +150,15 @@ text-align: center;
         justify-content: center;
     }
 }
-@media (max-width: 992px) and (min-width: 786px) {
-    .img-style{
-        max-width: 576px;
+@media (max-width: 1200px) and (min-width: 992px) {
+    .main-collection{
+        max-width: 860px;
         width: 100%;
-        justify-content: center;
-        margin-top: 30px;
+    }
+    .img-style{
+        width: 386px;
     }
     .featured-collection{
-text-align: center;
         font-size: 12px;
     }
     .customized-goods{
@@ -134,8 +169,11 @@ text-align: center;
         text-align: center;
         font-size: 16px;
     }
-     .view-button-container{
-        display: flex;
-        justify-content: center;
+    
+}
+@media (max-width: 1800px) and (min-width: 1200px) {
+    .main-collection{
+        max-width: 1100px;
     }
+
 }

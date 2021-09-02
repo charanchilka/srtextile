@@ -10,7 +10,7 @@ const Header = () => {
             <div className="row no-gutters align-items-center">
                 <div className="col-lg-6 col-12 col-md-12 col-sm-12">
                  
-                    <img src={Bathrob} alt="bath rob" height="446px" />
+                    <img src={Bathrob} className="image-position" alt="bath rob" />
                    
                 </div>
                 <div className="col-lg-6 col-12 col-md-12 col-sm-12">
