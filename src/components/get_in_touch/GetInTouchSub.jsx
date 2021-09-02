@@ -3,7 +3,7 @@ import Bathrob from "../../Assets/Images/bath_rob.svg";
 
 const GetInTouchSub = () => {
   return (
-    <div>
+    <div className="getInTouchContainer">
       <div className="main-style">
         <div className="row no-gutters">
           <div className="col-12 col-md-12 col-lg-6 col-sm-12 d-flex flex-column justify-content-center">
@@ -17,7 +17,7 @@ const GetInTouchSub = () => {
               </button>
             </div>
           </div>
-          <div className="col-12 col-md-12 col-lg-6 col-sm-12 d-flex justify-content-center align-items-center">
+          <div className="col-12 col-md-12 col-lg-6 col-sm-12 d-flex justify-content-end align-items-center">
             <img src={Bathrob} alt="bath rob" height="446px" />
           </div>
         </div>

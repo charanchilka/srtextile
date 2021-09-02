@@ -1,9 +1,30 @@
 .about-us-main{
-    height: 800px;
-    background: #F5FCFF;
-    
+    height: 636px;
+    background: #003445;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
 }
-
+.aboutWidth{
+    width: 1320px;
+    margin: 0 auto;
+}
+.about-content{
+    font-size: 18px;
+    line-height: 32px;
+    color: #e5e5e5;
+    padding: 0px 25px 0px 0px;
+}
+.aboutHeading{
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1.5px;
+    color: #FFFFFF;
+}
 .about-towel{
     background-color: #fff;
     width: 538px;

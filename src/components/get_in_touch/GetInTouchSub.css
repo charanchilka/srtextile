@@ -1,12 +1,19 @@
-.main-style{
+.getInTouchContainer{
     height: 636px;
     background-color: #003445;
     display: flex;
+    align-items: center;
+}
+.main-style{
+    
+    display: flex;
+    width: 1320px;
+    margin: 0 auto;
 }
 
-.get-in-touch-col{
+/* .get-in-touch-col{
     padding-left: 95px;
-}
+} */
 
 .get-in-touch{
     font-family: 'Sen', sans-serif;
