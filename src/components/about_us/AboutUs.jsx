@@ -8,12 +8,12 @@ const Header = () => {
         <div className="about-us-main">
             <div className="aboutWidth">
             <div className="row no-gutters align-items-center">
-                <div className="col-lg-6 col-12 col-md-12 col-sm-12">
+                <div className="col-lg-6 col-12 col-md-12 col-sm-12 collFirstContent">
                  
                     <img src={Bathrob} className="image-position" alt="bath rob" />
                    
                 </div>
-                <div className="col-lg-6 col-12 col-md-12 col-sm-12">
+                <div className="col-lg-6 col-12 col-md-12 col-sm-12 collSecondContent">
                    
                         <p className="aboutHeading">About Us</p>
                             <p className="about-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum diam orci pretium a pharetra, feugiat cursus. Dictumst risus, sem egestas odio cras adipiscing vulputate. Nisi, risus in suscipit non. Non commodo volutpat, pharetra, vel.</p>

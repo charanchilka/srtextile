@@ -59,7 +59,18 @@
     color: #FFFFFF;
     box-shadow: 2px 2px 5px 2px #0000002e;
 }
-
+.aboutFirstContent{
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+        }
+        .aboutSecondContent{
+            align-items: flex-end;
+    justify-content: center;
+            display: flex;
+            flex-direction: column;
+        }
 
 @media (max-width: 576px) and (min-width: 300px) {
     .main-collection{
@@ -72,15 +83,17 @@
         max-width: 576px;
         width: 100%;
         justify-content: center;
-        margin-top: 30px;
+        margin-top: 0px;
+        border-radius: 10px;
     }
     .featured-collection{
-text-align: center;
+        text-align: center;
         font-size: 12px;
     }
     .customized-goods{
         margin: 0px;
         font-size: 36px;
+        justify-content: center;
     }
     .text-content{
         text-align: center;
@@ -92,7 +105,7 @@ text-align: center;
     }
 }
 
-@media (max-width: 786px) and (min-width: 576px) {
+/* @media (max-width: 786px) and (min-width: 576px) {
     .main-collection{
         height: 724px;
         padding: 0px 15px;
@@ -121,14 +134,16 @@ text-align: center;
         display: flex;
         justify-content: center;
     }
-}
-@media (max-width: 992px) and (min-width: 786px) {
+} */
+@media (max-width: 992px) and (min-width: 576px) {
     .main-collection{
+        height: 736px;
+        align-items: center;
         max-width: 890px;
         width: 100%;
     }
     .img-style{
-        max-width: 576px;
+        max-width: 440px;
         width: 100%;
         justify-content: center;
         margin-top: 30px;
@@ -141,9 +156,21 @@ text-align: center;
         margin: 0px;
         font-size: 36px;
     }
+    .aboutFirstContent{
+align-items: center;
+justify-content: center;
+display: flex;
+    }
+    .aboutSecondContent{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
     .text-content{
         text-align: center;
         font-size: 16px;
+        margin: 0px 140px;
     }
      .view-button-container{
         display: flex;

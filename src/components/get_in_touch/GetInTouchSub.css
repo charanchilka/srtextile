@@ -52,9 +52,49 @@
     line-height: 25px;
     letter-spacing: 1px;
 }
-
+.getInTouchSecondContent{
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+}
 @media (max-width: 576px) and (min-width: 300px) {
-    
+    .getInTouchContainer{
+        height: 600px;
+    }
+    .main-style{
+        max-width: 576px;
+       
+        width: 100%;
+    }
+    .touchContainer{
+        flex-direction: column-reverse;
+    }
+    .getInTouchSecondContent{
+        justify-content: center;
+    }
+    .main-style img{
+        height: 285px;
+    }
+    .get-in-touch-col{
+        text-align: center;
+        padding-left: 0px;
+    }
+    .get-in-touch{
+        font-size: 36px;
+    justify-content: center;
+    }
+    .sub-para{
+        font-size: 20px;
+    letter-spacing: 0.5px;
+    justify-content: center;
+    }
+    .Connect-with-Us{
+        width: 228px;
+    height: 40px;
+    font-size: 16px;
+    }
+}
+/* @media (max-width: 786px) and (min-width: 576px) {
     .main-style{
         max-width: 576px;
         height: 600px;
@@ -81,50 +121,30 @@
     height: 40px;
     font-size: 16px;
     }
-}
-@media (max-width: 786px) and (min-width: 576px) {
-    .main-style{
-        max-width: 576px;
-        height: 600px;
-        width: 100%;
-    }
-    .main-style img{
-        height: 235px;
-    }
-    .get-in-touch-col{
-        text-align: center;
-        padding-left: 0px;
-    }
-    .get-in-touch{
-        font-size: 36px;
-    justify-content: center;
-    }
-    .sub-para{
-        font-size: 20px;
-    letter-spacing: 0.5px;
-    justify-content: center;
-    }
-    .Connect-with-Us{
-        width: 228px;
-    height: 40px;
-    font-size: 16px;
-    }
-}
-@media (max-width: 992px) and (min-width: 786px) {
+} */
+@media (max-width: 992px) and (min-width: 576px) {
     .main-style{
         max-width: 890px;
         width: 100%;
     }
     .main-style img{
-        height: 235px;
+        height: 285px;
     }
     .get-in-touch-col{
         text-align: center;
         padding-left: 0px;
     }
+    .touchContainer{
+        flex-direction: column-reverse;
+    }
     .get-in-touch{
-        font-size: 36px;
+        font-size: 48px;
     justify-content: center;
+    }
+    .getInTouchSecondContent{
+        margin-bottom: 20px;
+        justify-content: center;
+       
     }
     .sub-para{
         font-size: 20px;

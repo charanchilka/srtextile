@@ -52,8 +52,11 @@
         width: 100%;
     }
     .about-us-main{
-        padding: 40px 20px;
-
+        padding: 0px 20px;
+height: 736px;
+    }
+    .collFirstContent{
+        margin-bottom: 40px;
     }
     .about-towel{
         width: 323px;
@@ -61,13 +64,16 @@
     }
     .aboutHeading{
         font-size: 36px;    
+        justify-content: center;
     }
     .about-content{
         font-size: 16px;
         color: #ffffff;
+        padding: 0px;
+    text-align: center;
     }
     .image-position{
-        max-width: 235px;
+        height: 235px;
         width: 100%;
     }
     .read-more{
@@ -77,7 +83,7 @@
     font-size: 16px;
     }
 }
-@media (max-width: 786px) and (min-width: 576px) {
+/* @media (max-width: 786px) and (min-width: 576px) {
     .aboutWidth{
         max-width: 576px;
         width: 100%;
@@ -107,32 +113,46 @@
     align-items: center;
     font-size: 16px;
     }
-}
-@media (max-width: 992px) and (min-width: 786px) {
+} */
+@media (max-width: 992px) and (min-width: 576px) {
     .aboutWidth{
         max-width: 890px;
         width: 100%;
     }
     .about-us-main{
-        padding: 40px 20px;
-
+        padding: 0px;
+height: 736px;
     }
     .about-towel{
         width: 323px;
         height: 323px;
     }
     .aboutHeading{
-        font-size: 36px;    
+        font-size: 48px;    
     }
     .about-content{
         font-size: 16px;
         color: #ffffff;
+        padding: 0px;
+        margin: 0px 140px;
     }
     .image-position{
-        max-width: 200px;
-        width: 100%;
+        height: 300px;
+    }
+    .collFirstContent{
+        margin-bottom: 40px;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .collSecondContent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     .read-more{
+        margin-top: 20px;
         display: flex;
     justify-content: center;
     align-items: center;

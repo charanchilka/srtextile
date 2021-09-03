@@ -11,7 +11,7 @@ const GetDeal = () => {
           Get a Deal in 3 steps
         </p>
         <div className="row no-gutters d-flex justify-content-center align-items-center">
-          <div className="col-lg-4 col-12 col-md-12 col-sm-12">
+          <div className="col-lg-4 col-12 col-md-12 col-sm-12 dealFirstContent">
             <div className="cards">
                 <img src={tellYourNeeds} alt="" />
               <p className="cards-header my-4">Tell Us Your Textile Needs</p>
@@ -20,7 +20,7 @@ const GetDeal = () => {
               </p>
             </div>
           </div>
-          <div className="col-lg-4 col-12 col-md-12 col-sm-12">
+          <div className="col-lg-4 col-12 col-md-12 col-sm-12 dealSecondContent">
             <div className="cards">
                  <img src={priceTag} alt="" />
               <p className="cards-header my-4">Get your Textile Quotation</p>
@@ -29,7 +29,7 @@ const GetDeal = () => {
               </p>
             </div>
           </div>
-          <div className="col-lg-4 col-12 col-md-12 col-sm-12">
+          <div className="col-lg-4 col-12 col-md-12 col-sm-12 dealThirdContent">
             <div className="cards">
                  <img src={dealWithUs} alt="" />
               <p className="cards-header my-4">Connect with us & Confirm Deal</p>

@@ -5,7 +5,7 @@ const GetInTouchSub = () => {
   return (
     <div className="getInTouchContainer">
       <div className="main-style">
-        <div className="row no-gutters">
+        <div className="row no-gutters touchContainer">
           <div className="col-12 col-md-12 col-lg-6 col-sm-12 d-flex flex-column justify-content-center">
             <div className="get-in-touch-col">
               <p className="get-in-touch">Get in touch with us</p>
@@ -17,7 +17,7 @@ const GetInTouchSub = () => {
               </button>
             </div>
           </div>
-          <div className="col-12 col-md-12 col-lg-6 col-sm-12 d-flex justify-content-end align-items-center">
+          <div className="col-12 col-md-12 col-lg-6 col-sm-12 getInTouchSecondContent">
             <img src={hangingNap} alt="bath rob" />
           </div>
         </div>
