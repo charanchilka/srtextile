@@ -58,6 +58,15 @@
 #contact{
     display: block;
 }
+a:link, a:visited {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+}
+a:hover{
+    font-weight: 700;
+}
 
 @media (max-width: 576px) {
     #home,

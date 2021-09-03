@@ -19,8 +19,10 @@ const Header = (props) => {
                     <MainIcon className="logo_font"> </MainIcon>
                     <img className="hamberger_icon" src={HamburgerIcon} alt="hamburger icon"/>
                 </div>
-                <div className="col-auto menu_spacing" id="home">Home</div>
-                <div className="col-auto menu_spacing" id="aboutUs">About Us</div>
+                <div className="col-auto menu_spacing" id="home">
+                <a href="/">Home</a></div>
+                <div className="col-auto menu_spacing" id="aboutUs">
+                <a href="/about-us">About Us</a></div>
                 <div className="col-auto menu_spacing" id="products">Products</div>
                 <div className="col-auto menu_spacing" id="infra">Infrastucture</div>
                 <div className="col-auto menu_spacing_contact" id="contact">
