@@ -52,6 +52,17 @@
     line-height: 25px;
     letter-spacing: 1px;
 }
+.Connect-with-Us a:visited {
+        text-decoration: none;
+        color: #003445;
+        cursor: pointer;
+    }
+    .Connect-with-Us .nav a:link{
+        text-decoration: none;
+        color: #003445;
+        cursor: pointer;
+    }
+
 .getInTouchSecondContent{
     justify-content: flex-end;
     align-items: center;

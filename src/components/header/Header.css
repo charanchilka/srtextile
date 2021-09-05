@@ -58,13 +58,19 @@
 #contact{
     display: block;
 }
-a:link, a:visited {
+.nav a:visited {
     text-decoration: none;
     color: #fff;
     cursor: pointer;
     font-family: 'Inter', sans-serif;
 }
-a:hover{
+.nav a:link{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+}
+.nav a:hover{
     font-weight: 700;
 }
 
