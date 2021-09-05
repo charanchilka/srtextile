@@ -2,7 +2,6 @@ import Header from "../header/Header";
 import Footer from "../footer/Footer";
 import "./GetInTouchMain.css";
 import React from "react";
-// import BackgroundTouch from "../../Assets/Images/getInTouchBack.svg";
 
 class GetInTouchMain extends React.Component {
   state = {
@@ -11,7 +10,7 @@ class GetInTouchMain extends React.Component {
 
   componentDidMount() {
     document.addEventListener("scroll", () => {
-      const backgroundcolor = window.scrollY < 500 ? "transparent" : "bold";
+      const backgroundcolor = window.scrollY < 700 ? "transparent" : "bold";
       this.setState({ navBackground: backgroundcolor });
     });
   }

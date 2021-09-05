@@ -20,7 +20,7 @@ const Caraousel = () => {
 
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <div className="slidingImage"  style={{backgroundImage: `url(https://srtextilesimages.netlify.app/carousal/22.jpg)`}}></div>
+                        <div className="slidingImage"  style={{backgroundImage: `url(https://srtextilesimages.netlify.app/carousal/19.jpg)`}}></div>
                     </div>
 
                     <div className="carousel-item">
@@ -28,7 +28,7 @@ const Caraousel = () => {
                     </div>
 
                     <div className="carousel-item">
-                        <div className="slidingImage"  style={{backgroundImage: `url(https://srtextilesimages.netlify.app/carousal/19.jpg)`}}></div>
+                        <div className="slidingImage"  style={{backgroundImage: `url(https://srtextilesimages.netlify.app/carousal/22.jpg)`}}></div>
                     </div>
 
                     <div className="carousel-item">
