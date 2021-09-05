@@ -21,14 +21,29 @@
     margin-bottom: 0px;
 }
 
-.customized-goods{
+
+.customized-goods-01{
     display: flex;
     margin: 30px 0px;
     align-items: center;
     font-family: 'Sen', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 64px;
+    font-size: 30px;
+    line-height: 77px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: #111111;
+}
+
+.customized-goods-02{
+    display: flex;
+    margin: 30px 0px;
+    align-items: center;
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
     line-height: 77px;
     letter-spacing: 1px;
     text-transform: capitalize;

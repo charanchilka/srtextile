@@ -2,7 +2,6 @@ import Header from "../header/Header";
 import Footer from "../footer/Footer";
 import "./about_us_main.css";
 import React from "react";
-import AboutUsMainImg from "../../Assets/Images/aboutUsMain.svg";
 
 class AboutUsMain extends React.Component {
   state = {
@@ -26,16 +25,11 @@ class AboutUsMain extends React.Component {
               <div className="col-lg-8 col-12 col-md-12 col-sm-12 aboutParaFirst">
                 <div className="aboutHeading">About Us</div>
                 <p className="mb-0">
-                  Globe Textiles (India) Ltd. (acronym: GTIL) has been
-                  successfully termed as the STAR Exporter of Fabrics and
-                  garments catering to global and domestic markets for the last
-                  two decades. GTIL is one of Ahmedabad’s (Gujarat State, India)
-                  top ranked and highly reputed companies in the private sector
-                  with primary business forays in exporting fabrics.
+                  SR Textiles emerged in the year 2018 under the leadership of Rohan Rajesham Chilka. Trained along with his Father, he grew fond into the Business. Rohan began his entrepreneurial journey by assisting his father with an aim to expand the business globally. His passion about business trade & tricks made him explore further into Bed & Bath collection. The Company has maintained a track record of sound professionalism and has always adhered to international standards.
                 </p>
               </div>
               <div className="col-lg-4 col-12 col-md-12 col-sm-12 aboutParaSecond">
-                <img src={AboutUsMainImg} alt="AboutUs" />
+                <img className="img-style" src="https://srtextilesimages.netlify.app/carousal/1.jpg" alt="AboutUs" />
               </div>
             </div>
           </div>
@@ -47,50 +41,6 @@ class AboutUsMain extends React.Component {
                 best, by means of utilizing the highest quality of resources and
                 world-class systems.
               </div>
-              <div className="vissionTxt">
-                At GTIL, with well-defined quality objectives in mind to attain
-                customer satisfaction, is at the heart of our business policy
-                and strategy. Globe is committed to manufacturing, source,
-                supply, export and trade quality textile products and services.
-                We will always endeavor to satisfy our customers’ needs and
-                exceed expectations through win-win relationships and delight
-                them. Our vision is to serve our customers with dedication and
-                offer specialized services with GLOBE quality assurance, walking
-                the ‘extra mile.’
-              </div>
-            </div>
-            <div className="mission">
-              <div className="vissionHeading">MISSION</div>
-              <div className="vissionSubTxt">
-                To attain customer satisfaction by delivering nothing but the
-                best, by means of utilizing the highest quality of resources and
-                world-class systems.
-              </div>
-              <div className="vissionTxt">
-                At GTIL, with well-defined quality objectives in mind to attain
-                customer satisfaction, is at the heart of our business policy
-                and strategy. Globe is committed to manufacturing, source,
-                supply, export and trade quality textile products and services.
-                We will always endeavor to satisfy our customers’ needs and
-                exceed expectations through win-win relationships and delight
-                them. Our vision is to serve our customers with dedication and
-                offer specialized services with GLOBE quality assurance, walking
-                the ‘extra mile.’
-              </div>
-            </div>
-            <div className="values">
-              <div className="vissionHeading">VALUES</div>
-              <div className="vissionSubTxt">
-                To attain customer satisfaction by delivering nothing but the
-                best, by means of utilizing the highest quality of resources and
-                world-class systems. At GTIL, with well-defined quality
-                objectives in mind to attain customer satisfaction, is at the
-                heart of our business policy and strategy.
-              </div>
-              {/* <div className="vissionTxt">
-         At GTIL, with well-defined quality objectives in mind to attain customer satisfaction, is at the heart of our business policy and strategy. Globe is committed to manufacturing, source, supply, export and trade quality textile products and services. We will always endeavor to satisfy our customers’ needs and exceed expectations through win-win relationships and delight them. Our vision is to serve our customers with dedication and offer specialized services with GLOBE quality assurance, walking the ‘extra mile.’
-
-         </div> */}
             </div>
           </div>
         </div>
@@ -101,3 +51,39 @@ class AboutUsMain extends React.Component {
 }
 
 export default AboutUsMain;
+
+/*
+<div className="values">
+<div className="vissionHeading">VALUES</div>
+<div className="vissionSubTxt">
+  To attain customer satisfaction by delivering nothing but the
+  best, by means of utilizing the highest quality of resources and
+  world-class systems. At GTIL, with well-defined quality
+  objectives in mind to attain customer satisfaction, is at the
+  heart of our business policy and strategy.
+</div>
+<div className="vissionTxt">
+At GTIL, with well-defined quality objectives in mind to attain customer satisfaction, is at the heart of our business policy and strategy. Globe is committed to manufacturing, source, supply, export and trade quality textile products and services. We will always endeavor to satisfy our customers’ needs and exceed expectations through win-win relationships and delight them. Our vision is to serve our customers with dedication and offer specialized services with GLOBE quality assurance, walking the ‘extra mile.’
+
+</div>
+</div> */
+
+/* <div className="mission">
+<div className="vissionHeading">MISSION</div>
+<div className="vissionSubTxt">
+  To attain customer satisfaction by delivering nothing but the
+  best, by means of utilizing the highest quality of resources and
+  world-class systems.
+</div>
+<div className="vissionTxt">
+  At GTIL, with well-defined quality objectives in mind to attain
+  customer satisfaction, is at the heart of our business policy
+  and strategy. Globe is committed to manufacturing, source,
+  supply, export and trade quality textile products and services.
+  We will always endeavor to satisfy our customers’ needs and
+  exceed expectations through win-win relationships and delight
+  them. Our vision is to serve our customers with dedication and
+  offer specialized services with GLOBE quality assurance, walking
+  the ‘extra mile.’
+</div>
+</div> */
