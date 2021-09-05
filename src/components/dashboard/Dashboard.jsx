@@ -24,7 +24,7 @@ class Dashboard extends React.Component {
     });
     setTimeout(() => {
       this.setState({splash_is_enable:false})
-    }, 5000);
+    }, 2000);
   }
 
   render() {

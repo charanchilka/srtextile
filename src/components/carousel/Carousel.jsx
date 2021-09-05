@@ -1,12 +1,4 @@
 import './Carousel.css';
-// import $ from 'jquery';
-import Carousel1 from "../../Assets/Images/carousel1.svg"
-import Carousel2 from "../../Assets/Images/carousel2.svg"
-import Carousel3 from "../../Assets/Images/carousel3.svg"
-import Carousel4 from "../../Assets/Images/carousel4.svg"
-import Carousel5 from "../../Assets/Images/carousel5.svg"
-import Carousel6 from "../../Assets/Images/carousel6.svg"
-import Carousel7 from "../../Assets/Images/carousel7.svg"
 
 
 const Caraousel = () => {
@@ -28,34 +20,31 @@ const Caraousel = () => {
 
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        {/* <img className="d-block w-100" src={Carousel1} alt="First slide" /> */}
-                        <div className="slidingImage"  style={{backgroundImage: `url(${Carousel1})`}}></div>
+                        <div className="slidingImage"  style={{backgroundImage: `url(https://srtextilesimages.netlify.app/carousal/19.jpg)`}}></div>
                     </div>
 
                     <div className="carousel-item">
-                        {/* <img className="d-block w-100" src={Carousel2} alt="First slide" /> */}
-                        <div className="slidingImage"  style={{backgroundImage: `url(${Carousel2})`}}></div>
+                        <div className="slidingImage"  style={{backgroundImage: `url(https://srtextilesimages.netlify.app/carousal/502.jpg)`}}></div>
                     </div>
 
                     <div className="carousel-item">
-                        {/* <img className="d-block w-100" src={Carousel3} alt="First slide" /> */}
-                        <div className="slidingImage"  style={{backgroundImage: `url(${Carousel3})`}}></div>
+                        <div className="slidingImage"  style={{backgroundImage: `url(https://srtextilesimages.netlify.app/carousal/22.jpg)`}}></div>
                     </div>
+
                     <div className="carousel-item">
-                        {/* <img className="d-block w-100" src={Carousel3} alt="First slide" /> */}
-                        <div className="slidingImage"  style={{backgroundImage: `url(${Carousel4})`}}></div>
+                        <div className="slidingImage"  style={{backgroundImage: `url(https://srtextilesimages.netlify.app/promotional/504.jpg)`}}></div>
                     </div>
+
                     <div className="carousel-item">
-                        {/* <img className="d-block w-100" src={Carousel3} alt="First slide" /> */}
-                        <div className="slidingImage"  style={{backgroundImage: `url(${Carousel5})`}}></div>
+                        <div className="slidingImage"  style={{backgroundImage: `url(https://srtextilesimages.netlify.app/carousal/52.jpg)`}}></div>
                     </div>
+
                     <div className="carousel-item">
-                        {/* <img className="d-block w-100" src={Carousel3} alt="First slide" /> */}
-                        <div className="slidingImage"  style={{backgroundImage: `url(${Carousel6})`}}></div>
+                        <div className="slidingImage"  style={{backgroundImage: `url(https://srtextilesimages.netlify.app/carousal/46.jpg)`}}></div>
                     </div>
+
                     <div className="carousel-item">
-                        {/* <img className="d-block w-100" src={Carousel3} alt="First slide" /> */}
-                        <div className="slidingImage"  style={{backgroundImage: `url(${Carousel7})`}}></div>
+                        <div className="slidingImage"  style={{backgroundImage: `url(https://srtextilesimages.netlify.app/carousal/500.jpg)`}}></div>
                     </div>
 
                 </div>

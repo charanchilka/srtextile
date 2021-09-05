@@ -16,7 +16,7 @@ const Header = () => {
                 <div className="col-lg-6 col-12 col-md-12 col-sm-12 collSecondContent">
                    
                         <p className="aboutHeading">About Us</p>
-                            <p className="about-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum diam orci pretium a pharetra, feugiat cursus. Dictumst risus, sem egestas odio cras adipiscing vulputate. Nisi, risus in suscipit non. Non commodo volutpat, pharetra, vel.</p>
+                            <p className="about-content">Mr. Rajesham Chilka started the Company named RY Chilka Textiles in 1992, with bare minimum funds. With his confidence, Willpower and fine knowledge about textiles, he initiated with 4 Power Looms and began manufacturing sheets, expanding further by building new looms and infrastructure</p>
                         
                         <div className="read-more">
                         <button className="button-style"> <a href="/about-us"> Read More <span> <img src={Arrow} alt="arrow" /></span></a></button>

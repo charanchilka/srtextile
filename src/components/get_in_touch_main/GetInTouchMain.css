@@ -5,6 +5,7 @@
 }
 .getInTouchMainContainer img{
     width: 100%;
+    height: 1023px;
 }
 .contactForm{
     position: absolute; 
