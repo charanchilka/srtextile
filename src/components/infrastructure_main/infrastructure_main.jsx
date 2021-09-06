@@ -78,7 +78,7 @@ class InfrastructureMain extends React.Component {
                   <img src={threadInfo} alt="ThreadInfo" />
                 </div>
                 <div className="col-lg-6 col-12 col-md-12 col-sm-12">
-                  <div className="infraHeading mb-4">Heading</div>
+                  <div className="infraHeading1 mb-4">Heading</div>
                   <div className="infraImageDetail mb-3">
                     To attain customer satisfaction by delivering nothing but
                     the best, by means of utilizing the highest quality of
