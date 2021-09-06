@@ -54,6 +54,16 @@ box-shadow: none;
 
     border-color: #003445;
 }
+.contentForm input::placeholder{
+
+    color: #c4c4c4;
+    font-weight: 200;
+}
+.contentForm textarea::placeholder{
+
+    color: #c4c4c4;
+    font-weight: 200;
+}
 
 @media (max-width: 576px) and (min-width: 300px) {
 .getInTouchMainContainer{
