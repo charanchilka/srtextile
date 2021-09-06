@@ -42,3 +42,28 @@ font-family: 'Inter', sans-serif;
 .touchCss{
     color: #003445;
 }
+
+
+@media (max-width: 576px) and (min-width: 300px) {
+
+    .getInTouchMainContainer img{
+        
+        height: 1023px;
+    }
+}
+
+
+@media (max-width: 992px) and (min-width: 576px) {
+    .getInTouchMainContainer img{
+        
+        height: 1023px;
+    }
+    
+    
+}
+@media (max-width: 1200px) and (min-width: 992px) {
+    .getInTouchMainContainer img{
+        
+        height: 1023px;
+    }
+}
