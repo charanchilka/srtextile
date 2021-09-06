@@ -107,6 +107,10 @@ border-radius: 4px;
     font-size:36px;
     
 }
+.infraDetails img{
+    width: 366px;
+    border-radius: 10px;
+}
 }
 
 @media (max-width: 992px) and (min-width: 576px) {
@@ -147,7 +151,10 @@ border-radius: 4px;
         font-size:36px;
         
     }
-    
+    .infraDetails img{
+    width: 366px;
+    border-radius: 10px;
+}
 }
 @media (max-width: 1200px) and (min-width: 992px) {
     .infraVideo, .infraDetails{
@@ -168,6 +175,7 @@ border-radius: 4px;
 }
 .infraDetails img{
     width: 350px;
+  
 }
 
 }
