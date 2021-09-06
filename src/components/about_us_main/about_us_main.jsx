@@ -2,6 +2,7 @@ import Header from "../header/Header";
 import Footer from "../footer/Footer";
 import "./about_us_main.css";
 import React from "react";
+import AboutUsMainImg from '../../Assets/Images/aboutUsMain.svg'
 
 class AboutUsMain extends React.Component {
   state = {
@@ -29,19 +30,14 @@ class AboutUsMain extends React.Component {
                 </p>
               </div>
               <div className="col-lg-4 col-12 col-md-12 col-sm-12 aboutParaSecond">
-                <img className="img-style" src="https://srtextilesimages.netlify.app/carousal/1.jpg" alt="AboutUs" />
+                <img className="" src={AboutUsMainImg} alt="AboutUs" />
               </div>
             </div>
           </div>
           <div className="aboutVisionContent">
-            <div className="vission">
-              <div className="vissionHeading">VISION</div>
-              <div className="vissionSubTxt">
-                To attain customer satisfaction by delivering nothing but the
-                best, by means of utilizing the highest quality of resources and
-                world-class systems.
-              </div>
-            </div>
+      
+            <img className="" src="https://srtextilesimages.netlify.app/carousal/1.jpg" alt="AboutUs" />
+           
           </div>
         </div>
         <Footer />

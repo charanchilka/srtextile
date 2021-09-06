@@ -30,36 +30,14 @@
     display: flex;
 }
 .aboutVisionContent{
-    padding: 60px;
+    padding: 60px 0px;
+    border-radius: 10px;
 }
-.vission, .mission{
-    margin-bottom: 60px;
+.aboutVisionContent img{
+    width: 100%;
+    border-radius: 10px;
 }
-.vissionHeading{
-    font-weight: 700;
-font-size: 20px;
-line-height: 20px;
-letter-spacing: 1px;
-color: #333333;
-font-family: 'Sen', sans-serif;
-margin-bottom: 22px;
-}
-.vissionSubTxt{
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 1px;
-    color: #003445;
-    margin-bottom: 22px;
-}
-.vissionTxt{
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
-line-height: 20px;
-letter-spacing: 1px;
-color: #333333;
-}
+
 
 @media (max-width: 576px) and (min-width: 300px) {
     .aboutUsMainContainer{
@@ -78,6 +56,9 @@ color: #333333;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+    }
+    .aboutParaFirst p{
+        text-align: center;
     }
     .aboutParaSecond{
         margin-bottom: 40px;
@@ -124,6 +105,9 @@ color: #333333;
     justify-content: center;
     align-items: center;
     }
+    .aboutVisionContent{
+        padding: 30px;
+    }
 }
 @media (max-width: 1200px) and (min-width: 992px) {
     .aboutUsMainContainer{
@@ -141,6 +125,3 @@ color: #333333;
     }
 }
 
-.img-style{
-    width: 500px;
-}
