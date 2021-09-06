@@ -27,57 +27,58 @@ class GetInTouchMain extends React.Component {
             </div>
             <div className="contentForm">
               <div className="row g-0">
-                <div className="col-12">
+                <div className="col-12 mb-2">
                   <div className="row g-0">
-                    <div className="col-1 d-flex justify-content-center align-items-center">
+                    <div className="col-1 p-0 d-flex justify-content-center align-items-center">
                       <i className="far fa-user"></i>
                     </div>
                     <div className="col-11">
                       <div className="form-group">
-                        <label>Name</label>
-                        <input type="text" className="form-control" id="name" />
+                  
+                        <input type="text" className="form-control" id="name" placeholder="Enter Name" />
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="col-12">
+                <div className="col-12 mb-2">
                   <div className="row g-0">
-                    <div className="col-1 d-flex justify-content-center align-items-center">
+                    <div className="col-1 p-0 d-flex justify-content-center align-items-center">
                       <i className="far fa-envelope"></i>
                     </div>
                     <div className="col-11">
                       <div className="form-group">
-                        <label>Email ID</label>
-                        <input type="email" className="form-control" id="emailid" />
+                      
+                        <input type="email" className="form-control" id="emailid" placeholder="Enter Email ID " />
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="col-12">
+                <div className="col-12 mb-2">
                   <div className="row g-0">
-                    <div className="col-1 d-flex justify-content-center align-items-center">
+                    <div className="col-1 p-0 d-flex justify-content-center align-items-center">
                     <i className="fas fa-phone-alt"></i>
                     </div>
                     <div className="col-11">
                       <div className="form-group">
-                        <label>Phone No.</label>
-                        <input type="tel" className="form-control" id="phoneno" />
+                        
+                        <input type="tel" className="form-control" id="phoneno" placeholder="Enter Phone No." />
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="col-12">
+                <div className="col-12 mb-2">
                   <div className="row g-0">
-                    <div className="col-1 d-flex justify-content-center align-items-center">
+                    <div className="col-1 p-0 d-flex justify-content-center align-items-center">
                     <i className="far fa-comment-alt"></i>
                     </div>
                     <div className="col-11">
                       <div className="form-group">
-                        <label>Message:</label>
+                      
                         <textarea
                           rows="2"
                           className="form-control"
                           id="comment"
+                          placeholder="Enter message"
                         ></textarea>
                       </div>
                     </div>
