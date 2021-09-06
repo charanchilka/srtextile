@@ -32,7 +32,7 @@ class GetInTouchMain extends React.Component {
                     <div className="col-1 p-0 d-flex justify-content-center align-items-center">
                       <i className="far fa-user"></i>
                     </div>
-                    <div className="col-11 p-0">
+                    <div className="col-11">
                       <div className="form-group">
                   
                         <input type="text" className="form-control" id="name" placeholder="Enter Name" />
@@ -45,7 +45,7 @@ class GetInTouchMain extends React.Component {
                     <div className="col-1 p-0 d-flex justify-content-center align-items-center">
                       <i className="far fa-envelope"></i>
                     </div>
-                    <div className="col-11 p-0">
+                    <div className="col-11">
                       <div className="form-group">
                       
                         <input type="email" className="form-control" id="emailid" placeholder="Enter Email ID " />
@@ -58,7 +58,7 @@ class GetInTouchMain extends React.Component {
                     <div className="col-1 p-0 d-flex justify-content-center align-items-center">
                     <i className="fas fa-phone-alt"></i>
                     </div>
-                    <div className="col-11 p-0">
+                    <div className="col-11">
                       <div className="form-group">
                         
                         <input type="tel" className="form-control" id="phoneno" placeholder="Enter Phone No." />
@@ -71,7 +71,7 @@ class GetInTouchMain extends React.Component {
                     <div className="col-1 p-0 d-flex justify-content-center align-items-center">
                     <i className="far fa-comment-alt"></i>
                     </div>
-                    <div className="col-11 p-0">
+                    <div className="col-11">
                       <div className="form-group">
                       
                         <textarea
