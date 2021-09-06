@@ -24,7 +24,8 @@ const Header = (props) => {
                 <div className="col-auto menu_spacing" id="aboutUs">
                 <a href="/about-us">About Us</a></div>
                 <div className="col-auto menu_spacing" id="products">Products</div>
-                <div className="col-auto menu_spacing" id="infra">Infrastucture</div>
+                <div className="col-auto menu_spacing" id="infra">
+                <a href="/infrastructure">Infrastucture</a></div>
                 <div className="col-auto menu_spacing_contact" id="contact">
                 <a href="/Get-In-Touch">Contact</a></div>
             </div>
