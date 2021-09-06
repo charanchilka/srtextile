@@ -111,6 +111,10 @@ border-radius: 4px;
     width: 366px;
     border-radius: 10px;
 }
+.infraGif iframe{
+    height: 225px;
+    margin-top: 46px;
+}
 }
 
 @media (max-width: 992px) and (min-width: 576px) {
@@ -154,6 +158,10 @@ border-radius: 4px;
     .infraDetails img{
     width: 366px;
     border-radius: 10px;
+}
+.infraGif iframe{
+    height: 225px;
+    margin-top: 46px;
 }
 }
 @media (max-width: 1200px) and (min-width: 992px) {
