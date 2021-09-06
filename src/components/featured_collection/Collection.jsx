@@ -3,7 +3,7 @@ import "./Collection.css";
 const FeaturedCollection = () => {
   return (
     <div className="main-collection">
-      <div className="row no-gutters">
+      <div className="row no-gutters mainCollRow">
         <div className="col-12 col-md-12 col-lg-6 col-sm-12 aboutFirstContent">
               <p className="featured-collection">Featured Collection</p>
               <div className="customized-goods-01">IF YOU CAN IMAGINE IT</div>

@@ -1,12 +1,17 @@
 .main-collection{
     height: 580px;
-    display: flex;
+    position: relative;
     width: 1190px;
     margin: 0 auto;
 }
-
+.mainCollRow{
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    width: 100%;
+}
 .img-style{
-    width: 540px;
+    width: 466px;
 }
 
 .featured-collection{
@@ -19,35 +24,38 @@
     text-transform: uppercase;
     color: #999999;
     margin-bottom: 0px;
+    text-align: center;
 }
 
 
 .customized-goods-01{
     display: flex;
-    margin: 30px 0px;
+    /* margin: 30px 0px; */
     align-items: center;
     font-family: 'Sen', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 26px;
     line-height: 77px;
     letter-spacing: 1px;
     text-transform: capitalize;
-    color: #111111;
+    color: #333;
+    justify-content: center;
 }
 
 .customized-goods-02{
     display: flex;
-    margin: 30px 0px;
+    /* margin: 30px 0px; */
     align-items: center;
     font-family: 'Sen', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 40px;
     line-height: 77px;
     letter-spacing: 1px;
     text-transform: capitalize;
-    color: #111111;
+    color: #003445;
+    justify-content: center;
 }
 
 .text-content{
@@ -62,7 +70,9 @@
     font-feature-settings: 'salt' on, 'liga' off;
     color: #18191F;
 }
-
+.view-button-container{
+    text-align: center;
+}
 .view-button{
     width: 237px;
     font-family: 'Inter', sans-serif;
@@ -73,6 +83,7 @@
     border-radius: 30px;
     color: #FFFFFF;
     box-shadow: 2px 2px 5px 2px #0000002e;
+  
 }
 .aboutFirstContent{
     /* align-items: center; */
@@ -90,13 +101,13 @@
 @media (max-width: 576px) and (min-width: 300px) {
     .main-collection{
         height: 724px;
-        padding: 0px 15px;
+        /* padding: 0px 15px; */
         max-width: 576px;
         width: 100%;
     }
     .img-style{
-        max-width: 576px;
-        width: 100%;
+        max-width: 350px;
+    width: 100%;
         justify-content: center;
         margin-top: 0px;
         border-radius: 10px;
@@ -110,6 +121,14 @@
         font-size: 36px;
         justify-content: center;
     }
+    .customized-goods-01{
+font-size: 20px;
+line-height: 56px;
+    }
+    .customized-goods-02{
+        font-size: 24px;
+        list-style: 68px;
+    }
     .text-content{
         text-align: center;
         font-size: 16px;
@@ -117,6 +136,11 @@
     .view-button-container{
         display: flex;
         justify-content: center;
+    }
+    .aboutSecondContent{
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
     }
 }
 
@@ -202,6 +226,12 @@ display: flex;
     }
     .featured-collection{
         font-size: 12px;
+    }
+    .customized-goods-01{
+        font-size: 24px;
+    }
+    .customized-goods-02{
+        font-size: 30px;
     }
     .customized-goods{
         margin: 0px;
