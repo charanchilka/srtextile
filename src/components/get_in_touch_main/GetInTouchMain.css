@@ -51,7 +51,7 @@ font-weight: 600;
 box-shadow: none;
 }
 .contentForm .form-control:focus{
-
+    border-bottom: 2px solid #003445;
     border-color: #003445;
 }
 .contentForm input::placeholder{
