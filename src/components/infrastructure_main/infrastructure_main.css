@@ -65,6 +65,12 @@ border-radius: 4px;
 .infraDetails{
     margin: 0 auto;
 }
+.slick-next, .slick-prev{
+    transform: translate(-180%,-50%);
+}
+
+
+
 @media (max-width: 576px) and (min-width: 300px) {
     
     .infraVideo, .infraDetails{

@@ -4,6 +4,7 @@ import "./infrastructure_main.css";
 import React from "react";
 import InfraMainImg from "../../Assets/Images/infraMainImg.svg";
 import threadInfo from "../../Assets/Images/threadInfo.svg";
+import Slider from "react-slick";
 
 class InfrastructureMain extends React.Component {
   state = {
@@ -18,6 +19,41 @@ class InfrastructureMain extends React.Component {
   }
 
   render() {
+    var settings = {
+    
+infinite: true,
+speed: 800,
+// autoplay: true,
+// autoplaySpeed: 4000,
+slidesToShow: 4,
+slidesToScroll: 4,
+responsive: [
+{
+breakpoint: 1024,
+settings: {
+slidesToShow: 3,
+slidesToScroll: 3,
+infinite: true,
+
+}
+},
+{
+breakpoint: 992,
+settings: {
+slidesToShow: 2,
+slidesToScroll: 2
+}
+},
+{
+breakpoint: 576,
+settings: {
+slidesToShow: 1,
+slidesToScroll: 1
+}
+}
+
+]
+    };
     return (
       <div>
         <Header background={this.state} />
@@ -71,6 +107,16 @@ class InfrastructureMain extends React.Component {
               </div>
             </div>
           </div>
+          <Slider {...settings}>
+     <div><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190720/gallery/preview/02_o_car.jpg"/></div>
+     <div><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190715/gallery/preview/03_r_car.jpg"/></div>
+     <div><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190714/gallery/preview/04_g_car.jpg"/></div>
+     <div><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190714/gallery/preview/01_b_car.jpg"/></div>
+     <div><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190720/gallery/preview/02_o_car.jpg"/></div>
+     <div><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190715/gallery/preview/03_r_car.jpg"/></div>
+     <div><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190714/gallery/preview/04_g_car.jpg"/></div>
+     <div><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190714/gallery/preview/01_b_car.jpg"/></div>
+ </Slider>
           <div className="infraMachineInfo1">
             <div className="infraDetails">
               <div className="row m-0 infraMachineRow">
