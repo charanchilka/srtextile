@@ -25,13 +25,13 @@ infinite: true,
 speed: 800,
 // autoplay: true,
 // autoplaySpeed: 4000,
-slidesToShow: 4,
+slidesToShow: 5,
 slidesToScroll: 4,
 responsive: [
 {
-breakpoint: 1024,
+breakpoint: 1200,
 settings: {
-slidesToShow: 3,
+slidesToShow: 4,
 slidesToScroll: 3,
 infinite: true,
 
@@ -40,14 +40,21 @@ infinite: true,
 {
 breakpoint: 992,
 settings: {
-slidesToShow: 2,
+slidesToShow: 4,
 slidesToScroll: 2
 }
 },
 {
+  breakpoint: 786,
+  settings: {
+  slidesToShow: 3,
+  slidesToScroll: 2
+  }
+  },
+{
 breakpoint: 576,
 settings: {
-slidesToShow: 1,
+slidesToShow: 2,
 slidesToScroll: 1
 }
 }
@@ -107,16 +114,7 @@ slidesToScroll: 1
               </div>
             </div>
           </div>
-          <Slider {...settings}>
-     <div><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190720/gallery/preview/02_o_car.jpg"/></div>
-     <div><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190715/gallery/preview/03_r_car.jpg"/></div>
-     <div><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190714/gallery/preview/04_g_car.jpg"/></div>
-     <div><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190714/gallery/preview/01_b_car.jpg"/></div>
-     <div><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190720/gallery/preview/02_o_car.jpg"/></div>
-     <div><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190715/gallery/preview/03_r_car.jpg"/></div>
-     <div><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190714/gallery/preview/04_g_car.jpg"/></div>
-     <div><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190714/gallery/preview/01_b_car.jpg"/></div>
- </Slider>
+          
           <div className="infraMachineInfo1">
             <div className="infraDetails">
               <div className="row m-0 infraMachineRow">
@@ -144,6 +142,16 @@ slidesToScroll: 1
               </div>
             </div>
           </div>
+          <Slider {...settings}>
+     <div><img src="https://srtextilesimages.netlify.app/carousal/19.jpg"/></div>
+     <div><img src="https://srtextilesimages.netlify.app/carousal/502.jpg"/></div>
+     <div><img src="https://srtextilesimages.netlify.app/carousal/22.jpg"/></div>
+     <div><img src="https://srtextilesimages.netlify.app/promotional/504.jpg"/></div>
+     <div><img src="https://srtextilesimages.netlify.app/carousal/52.jpg"/></div>
+     <div><img src="https://srtextilesimages.netlify.app/carousal/46.jpg"/></div>
+     <div><img src="https://srtextilesimages.netlify.app/carousal/500.jpg"/></div>
+     <div><img src="https://srtextilesimages.netlify.app/carousal/19.jpg"/></div>
+ </Slider>
         </div>
         <Footer />
       </div>
