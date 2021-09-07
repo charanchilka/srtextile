@@ -21,13 +21,7 @@ const Header = (props) => {
   const closeMenu = () => {
     setNavbarOpen(false);
   };
-  const navigation = [
-    { link: "/", text: "Home" },
-    { link: "/about-us", text: "About Us" },
-    { link: "/get-in-touch", text: "Contact" },
-    { link: "/infrastructure", text: "Infrastructure" },
-  ];
-
+  
   return (
     <div className="nav" style={{ background: color }}>
       <div className="row no-gutters header_row">
