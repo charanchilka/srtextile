@@ -47,6 +47,8 @@ const Header = (props) => {
               >
                 Home
               </a>
+              </li>
+              <li>
               <a className="menuItemsAch"
                 href="/about-us"
                 onClick={() => closeMenu()}
@@ -54,7 +56,8 @@ const Header = (props) => {
               >
                 About Us
               </a>
-
+</li>
+<li>
               <div id="accordion">
                 <div className="card">
                   <div className="card-header" id="headingOne">
@@ -147,7 +150,8 @@ const Header = (props) => {
                   </div>
                 </div>
               </div>
-
+</li>
+<li>
               <a className="menuItemsAch"
                 href="/get-in-touch"
                 onClick={() => closeMenu()}
@@ -155,6 +159,8 @@ const Header = (props) => {
               >
                 Contact
               </a>
+              </li>
+              <li>
               <a className="menuItemsAch"
                 href="/infrastructure"
                 onClick={() => closeMenu()}
