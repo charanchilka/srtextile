@@ -60,18 +60,117 @@
 }
 .nav a:visited {
     text-decoration: none;
-    color: #fff;
     cursor: pointer;
     font-family: 'Inter', sans-serif;
 }
 .nav a:link{
     text-decoration: none;
-    color: #fff;
-    cursor: pointer;
+    
     font-family: 'Inter', sans-serif;
 }
 .nav a:hover{
     font-weight: 700;
+}
+
+
+.menuNav {
+    overflow-y: scroll;
+    list-style: none;
+    position: fixed;
+    top: 52px;
+    background: #003445;
+    right: 0;
+
+    bottom: 0;
+    height: 100vh;
+    width: 0;
+    overflow: hidden;
+    max-width: 290px;
+    z-index: 9;
+    transition: all 1s ease-out;
+  }
+  
+  .menuNav.showMenu {
+    width: 100%;
+    transition: all 1s ease-out;
+  }
+  
+ .menuItemsAch{
+    text-transform: capitalize;
+    font-size: 16px;
+    display: block;
+    padding: 5px 40px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.menuItemsAch:hover{
+    font-weight: 700;
+    color: #fff;
+}
+
+.firstList {
+    margin-top: 1rem;
+}
+.closeMenu{
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+    margin: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.card-body{
+    padding: 20px 40px;
+    
+}
+.card-body a{
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: #6B959E;
+}
+.card-body a:hover{
+    font-weight: 700;
+    color: #003445;
+}
+.card .btn{
+    width: 100%;
+    letter-spacing: 2px;
+    text-align: left;
+    background: #003445;
+    color: #fff;
+    border: none;
+    
+    font-family: 'Inter', sans-serif;
+    padding: 0px;
+}
+.card .btn:focus{
+    
+    box-shadow: none;
+    
+}
+.card .btn:hover{
+    
+    font-weight: bold;
+}
+.card-header{
+    background-color: rgb(0 52 69);
+    padding: 5px 40px;
+    border-bottom: none;
+}
+.card{
+    background-color: #f5fcff;
+    border: 1px solid rgb(0 52 69);
 }
 
 @media (max-width: 576px) {
@@ -102,6 +201,7 @@
     }
     .hamberger_icon{
         display: block;
+        cursor:pointer;
     }
 }
 
@@ -133,5 +233,6 @@
     }
     .hamberger_icon{
         display: block;
+        cursor:pointer;
     }
 }
