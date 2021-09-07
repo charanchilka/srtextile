@@ -170,7 +170,10 @@
 }
 .card{
     background-color: #f5fcff;
-    border: 1px solid rgb(0 52 69);
+    border: none;
+}
+.card-header:first-child{
+    border-radius: 0px;
 }
 
 @media (max-width: 576px) {

@@ -56,11 +56,11 @@ const Header = (props) => {
               </a>
 
               <div id="accordion">
-                <div class="card">
-                  <div class="card-header" id="headingOne">
-                    <h5 class="mb-0">
+                <div className="card">
+                  <div className="card-header" id="headingOne">
+                    <h5 className="mb-0">
                       <button
-                        class="btn"
+                        className="btn"
                         data-toggle="collapse"
                         data-target="#collapseOne"
                         aria-expanded="true"
@@ -73,11 +73,11 @@ const Header = (props) => {
 
                   <div
                     id="collapseOne"
-                    class="collapse"
+                    className="collapse"
                     aria-labelledby="headingOne"
                     data-parent="#accordion"
                   >
-                    <div class="card-body">
+                    <div className="card-body">
                       <ul>
                         <li>
                           <a
