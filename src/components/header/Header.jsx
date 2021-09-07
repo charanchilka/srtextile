@@ -21,7 +21,15 @@ const Header = (props) => {
   const closeMenu = () => {
     setNavbarOpen(false);
   };
-  
+  const [navbarOpenDesktop, setNavbarOpenDesktop] = useState(false);
+  const handleToggleDesktop = () => {
+    setNavbarOpenDesktop(!navbarOpenDesktop);
+  };
+
+  const closeMenuDesktop = () => {
+    setNavbarOpenDesktop(false);
+  };
+
   return (
     <div className="nav" style={{ background: color }}>
       <div className="row no-gutters header_row">
@@ -40,24 +48,26 @@ const Header = (props) => {
             </div>
 
             <li className="firstList">
-              <a className="menuItemsAch"
+              <a
+                className="menuItemsAch"
                 href="/"
                 onClick={() => closeMenu()}
                 onBlur={() => closeMenu()}
               >
                 Home
               </a>
-              </li>
-              <li>
-              <a className="menuItemsAch"
+            </li>
+            <li>
+              <a
+                className="menuItemsAch"
                 href="/about-us"
                 onClick={() => closeMenu()}
                 onBlur={() => closeMenu()}
               >
                 About Us
               </a>
-</li>
-<li>
+            </li>
+            <li>
               <div id="accordion">
                 <div className="card">
                   <div className="card-header" id="headingOne">
@@ -150,18 +160,20 @@ const Header = (props) => {
                   </div>
                 </div>
               </div>
-</li>
-<li>
-              <a className="menuItemsAch"
+            </li>
+            <li>
+              <a
+                className="menuItemsAch"
                 href="/get-in-touch"
                 onClick={() => closeMenu()}
                 onBlur={() => closeMenu()}
               >
                 Contact
               </a>
-              </li>
-              <li>
-              <a className="menuItemsAch"
+            </li>
+            <li>
+              <a
+                className="menuItemsAch"
                 href="/infrastructure"
                 onClick={() => closeMenu()}
                 onBlur={() => closeMenu()}
@@ -172,19 +184,88 @@ const Header = (props) => {
           </ul>
         </div>
         <div className="col-auto menu_spacing" id="home">
-          <a href="/">Home</a>
+          <a href="/" className="menuItemsAchDesktop">Home</a>
         </div>
         <div className="col-auto menu_spacing" id="aboutUs">
-          <a href="/about-us">About Us</a>
+          <a href="/about-us" className="menuItemsAchDesktop">About Us</a>
         </div>
-        <div className="col-auto menu_spacing" id="products">
+        <div className="col-auto menu_spacing" id="products" onClick={handleToggleDesktop}>
           Products
         </div>
+
+
+        <ul className={`menuNavDesktop ${navbarOpenDesktop ? " showMenuDesktop" : ""}`}>
+            
+            <li>
+              <a
+                href="/" className="menuItemsAchDesktop"
+                onClick={() => closeMenuDesktop()}
+                onBlur={() => closeMenuDesktop()}
+              >
+                Towels
+              </a>
+            </li>
+            <li>
+              <a
+                href="/" className="menuItemsAchDesktop"
+                onClick={() => closeMenuDesktop()}
+                onBlur={() => closeMenuDesktop()}
+              >
+                Napkins
+              </a>
+            </li>
+            <li>
+              <a
+                href="/" className="menuItemsAchDesktop"
+                onClick={() => closeMenuDesktop()}
+                onBlur={() => closeMenuDesktop()}
+              >
+                Bathrobes
+              </a>
+            </li>
+            <li>
+              <a
+                href="/" className="menuItemsAchDesktop"
+                onClick={() => closeMenuDesktop()}
+                onBlur={() => closeMenuDesktop()}
+              >
+                Customized Towels
+              </a>
+            </li>
+            <li>
+              <a
+                href="/" className="menuItemsAchDesktop"
+                onClick={() => closeMenuDesktop()}
+                onBlur={() => closeMenuDesktop()}
+              >
+                Printed Towels
+              </a>
+            </li>
+            <li>
+              <a
+                href="/" className="menuItemsAchDesktop"
+                onClick={() => closeMenuDesktop()}
+                onBlur={() => closeMenuDesktop()}
+              >
+                Kitchen Napkins
+              </a>
+            </li>
+            <li>
+              <a
+                href="/" className="menuItemsAchDesktop"
+                onClick={() => closeMenuDesktop()}
+                onBlur={() => closeMenuDesktop()}
+              >
+                Door Mat
+              </a>
+            </li>
+            </ul>
+
         <div className="col-auto menu_spacing" id="infra">
-          <a href="/infrastructure">Infrastucture</a>
+          <a href="/infrastructure" className="menuItemsAchDesktop">Infrastucture</a>
         </div>
         <div className="col-auto menu_spacing_contact" id="contact">
-          <a href="/Get-In-Touch">Contact</a>
+          <a href="/Get-In-Touch" className="menuItemsAchDesktop">Contact</a>
         </div>
       </div>
     </div>
