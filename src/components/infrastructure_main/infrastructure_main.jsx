@@ -143,14 +143,14 @@ slidesToScroll: 1
             </div>
           </div>
           <Slider {...settings}>
-     <div><img src="https://srtextilesimages.netlify.app/carousal/19.jpg"/></div>
-     <div><img src="https://srtextilesimages.netlify.app/carousal/502.jpg"/></div>
-     <div><img src="https://srtextilesimages.netlify.app/carousal/22.jpg"/></div>
-     <div><img src="https://srtextilesimages.netlify.app/promotional/504.jpg"/></div>
-     <div><img src="https://srtextilesimages.netlify.app/carousal/52.jpg"/></div>
-     <div><img src="https://srtextilesimages.netlify.app/carousal/46.jpg"/></div>
-     <div><img src="https://srtextilesimages.netlify.app/carousal/500.jpg"/></div>
-     <div><img src="https://srtextilesimages.netlify.app/carousal/19.jpg"/></div>
+     <div><img src="https://srtextilesimages.netlify.app/carousal/19.jpg" alt='slider'/></div>
+     <div><img src="https://srtextilesimages.netlify.app/carousal/502.jpg" alt='slider'/></div>
+     <div><img src="https://srtextilesimages.netlify.app/carousal/22.jpg" alt='slider'/></div>
+     <div><img src="https://srtextilesimages.netlify.app/promotional/504.jpg" alt='slider'/></div>
+     <div><img src="https://srtextilesimages.netlify.app/carousal/52.jpg" alt='slider'/></div>
+     <div><img src="https://srtextilesimages.netlify.app/carousal/46.jpg" alt='slider'/></div>
+     <div><img src="https://srtextilesimages.netlify.app/carousal/500.jpg" alt='slider'/></div>
+     <div><img src="https://srtextilesimages.netlify.app/carousal/19.jpg" alt='slider'/></div>
  </Slider>
         </div>
         <Footer />
