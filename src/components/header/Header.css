@@ -124,7 +124,7 @@
     padding: 0px;
     bottom: 0;
     /* height: 100vh; */
-    height:0%;
+    height:0px;
     overflow: hidden;
     max-width: 290px;
     z-index: 9;
@@ -132,7 +132,7 @@
 }
 
 .menuNavDesktop.showMenuDesktop {
-    height: 43%;
+    height: 274px;
     padding: 12px 8px;
     
     transition: all 1s ease-out;
