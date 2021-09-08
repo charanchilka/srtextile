@@ -23,8 +23,8 @@ class InfrastructureMain extends React.Component {
     
 infinite: true,
 speed: 800,
-// autoplay: true,
-// autoplaySpeed: 5000,
+autoplay: true,
+autoplaySpeed: 5000,
 slidesToShow: 5,
 slidesToScroll: 4,
 responsive: [
