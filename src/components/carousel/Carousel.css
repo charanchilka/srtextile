@@ -13,6 +13,7 @@
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center;
+    filter: drop-shadow(0px 16px 20px rgba(0, 0, 0, 0.1));
 }
 .carousel-indicators li{
     width: 20px;
@@ -47,11 +48,14 @@
     padding-bottom: 15px;
 }
 
+
+
 @media (max-width: 576px) and (min-width: 300px) {
 .slidingImage{
 border-radius: 8px;
 height: 442px; 
 background-size: auto 100%;
+
 }
 .carouselMainContainer{
     height: 442px; 
@@ -60,7 +64,7 @@ background-size: auto 100%;
     width: 100%;
 }
 .carousel{
-    filter: drop-shadow(0px 16px 20px rgba(0, 0, 0, 0.1));
+    /* filter: drop-shadow(0px 16px 20px rgba(0, 0, 0, 0.1)); */
     padding: 0px 12px;
 }
 .carousel-indicators li{
@@ -70,16 +74,33 @@ background-size: auto 100%;
     margin-left: 5px;
 }
 .carousel-caption h5{
-    font-size: 24px;
+    font-weight: 600;
+    font-size: 30px;
+    color: #333;
+
 }
 .carousel-caption p{
     font-size: 10px;
+color: #333;
+text-align: center;
+letter-spacing: 0.08em;
     margin-bottom: 0px;
+}
+.carousel-inner{
+    overflow: inherit;
 }
 .carousel-caption {
     left: 10%;
     right: 10%;
-    bottom: 56px;
+
+        background: #fff;
+        bottom: -160px;
+        padding-top: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+    
+    
 }
 }
 @media (max-width: 992px) and (min-width: 576px) {
