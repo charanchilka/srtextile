@@ -24,7 +24,7 @@ class InfrastructureMain extends React.Component {
 infinite: true,
 speed: 800,
 // autoplay: true,
-// autoplaySpeed: 4000,
+// autoplaySpeed: 5000,
 slidesToShow: 5,
 slidesToScroll: 4,
 responsive: [
@@ -143,14 +143,14 @@ slidesToScroll: 1
             </div>
           </div>
           <Slider {...settings}>
-     <div><img src="https://srtextilesimages.netlify.app/carousal/19.jpg" alt='slider'/></div>
-     <div><img src="https://srtextilesimages.netlify.app/carousal/502.jpg" alt='slider'/></div>
-     <div><img src="https://srtextilesimages.netlify.app/carousal/22.jpg" alt='slider'/></div>
-     <div><img src="https://srtextilesimages.netlify.app/promotional/504.jpg" alt='slider'/></div>
-     <div><img src="https://srtextilesimages.netlify.app/carousal/52.jpg" alt='slider'/></div>
-     <div><img src="https://srtextilesimages.netlify.app/carousal/46.jpg" alt='slider'/></div>
-     <div><img src="https://srtextilesimages.netlify.app/carousal/500.jpg" alt='slider'/></div>
-     <div><img src="https://srtextilesimages.netlify.app/carousal/19.jpg" alt='slider'/></div>
+     <img src="https://srtextilesimages.netlify.app/carousal/19.jpg" alt='slider'/>
+     <img src="https://srtextilesimages.netlify.app/carousal/502.jpg" alt='slider'/>
+     <img src="https://srtextilesimages.netlify.app/carousal/22.jpg" alt='slider'/>
+     <img src="https://srtextilesimages.netlify.app/promotional/504.jpg" alt='slider'/>
+     <img src="https://srtextilesimages.netlify.app/carousal/52.jpg" alt='slider'/>
+     <img src="https://srtextilesimages.netlify.app/carousal/46.jpg" alt='slider'/>
+     <img src="https://srtextilesimages.netlify.app/carousal/500.jpg" alt='slider'/>
+     <img src="https://srtextilesimages.netlify.app/carousal/19.jpg" alt='slider'/>
  </Slider>
         </div>
         <Footer />
