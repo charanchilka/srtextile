@@ -43,7 +43,32 @@ li{
     margin-top: 30px;
     font-size: 0.8rem;
 }
-
+.iconMainCol{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px;
+}
+.iconCont{
+    position: relative;
+cursor: pointer;
+}
+.iconCont img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.termsCond{
+    text-align: right;
+}
+.contList{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    text-align: right;
+}
 
 
 @media (max-width: 1200px) and (min-width: 300px) {
@@ -67,5 +92,27 @@ li{
     .quick-link{
         padding-bottom: 0px;
     }
+    .iconRow{
+        align-items: center;
+    justify-content: center;
+    }  
+.termsCond{
+    text-align: center;
+}
+.quick-link{
+    margin-top: 20px;
+}
+.contactUList{
+    margin-bottom: 0px;
+}
+}
+@media (max-width: 1800px) and (min-width: 1200px) {
+    .bgIcon{
+        width: 36px;
+    }
+    .socialIcon{
+        width: 20px;
+    }  
+  
 }
 

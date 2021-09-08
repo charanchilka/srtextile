@@ -7,19 +7,43 @@ import InstaIcon from '../../Assets/Images/instagram-icon.svg';
 import DrribleIcon from '../../Assets/Images/dribble-icon.svg';
 import TwitterIcon from '../../Assets/Images/twitter-icon.svg';
 import YoutubeIcon from '../../Assets/Images/youtube-icon.svg';
+import InstaLink from '../../Assets/Images/instaLink.svg';
+import TwitterLink from '../../Assets/Images/twitterLink.svg';
+import YoutubeLink from '../../Assets/Images/youtubeLink.svg';
+import DrribleLink from '../../Assets/Images/drribleIconLink.svg';
 
 const Header = () => {
     return (
         <div className="footer">
             <div className="footer-container">
-                <div className="row">
+                <div className="row g-0">
                     <div className="col-12 col-md-12 col-lg-12 col-xl-3 col-sm-12">
                     <h2 className="logo">SR TEXTILES</h2>
-                    <div className="row no-gutters">
-                        <div className="col-3"> <img src={InstaIcon} alt="social-media"/> </div>
-                        <div className="col-3"> <img src={DrribleIcon} alt="social-media"/> </div>
-                        <div className="col-3"> <img src={TwitterIcon} alt="social-media"/> </div>
-                        <div className="col-3"> <img src={YoutubeIcon} alt="social-media"/> </div>
+                    <div className="row g-0 mt-4 iconRow">
+                        <div className="col-auto iconMainCol">
+                            <span className="iconCont">
+                            <img className="socialIcon" src={InstaLink} alt="insta" />
+                            <img className="bgIcon" src={InstaIcon} alt="social-media"/> 
+                            </span>
+                            </div>
+                        <div className="col-auto iconMainCol">
+                            <span className="iconCont">
+                            <img className="socialIcon" src={DrribleLink} alt="insta" />
+                            <img className="bgIcon" src={DrribleIcon} alt="social-media"/> 
+                            </span>
+                            </div>
+                        <div className="col-auto iconMainCol">
+                            <span className="iconCont">
+                            <img className="socialIcon" src={TwitterLink} alt="insta" />
+                            <img className="bgIcon" src={TwitterIcon} alt="social-media"/> 
+                            </span>
+                            </div>
+                        <div className="col-auto iconMainCol">
+                            <span className="iconCont">
+                            <img className="socialIcon" src={YoutubeLink} alt="insta" />
+                            <img className="bgIcon" src={YoutubeIcon} alt="social-media"/> 
+                            </span>
+                            </div>
 
                     </div>
                     </div>
@@ -49,20 +73,20 @@ const Header = () => {
                         </div>
                     </div>
 
-                    <div className="col-12 col-md-12 col-lg-3 col-sm-12">
+                    <div className="col-12 col-md-12 col-lg-12 col-xl-3 col-sm-12">
                         <div>
                             <h3 className="quick-link">Reach Us</h3>
-                            <ul>
-                            <li><img className="mr-2" src={EmailIcon} alt="Email"/>contact@srtextilesmills.com</li>
-                            <li><img className="mr-2" src={MobileIcon} alt="mobile"/> +91 9168881268</li>
-                            <li><img className="mr-2" src={Location} alt="location"/> Plot No. 19 Adarsh Nagar Solapur</li>
+                            <ul className="contactUList">
+                            <li><div className="mr-2 contList"><img src={EmailIcon} alt="Email"/></div><span>contact@srtextilesmills.com</span> </li>
+                            <li><div className="mr-2 contList"><img src={MobileIcon} alt="mobile"/></div><span>+91 9168881268</span> </li>
+                            <li><div className="mr-2 contList"><img src={Location} alt="location"/></div><span>Plot No. 19 Adarsh Nagar Solapur</span> </li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div className="row no-gutters copy-right">
-                    <div className="col-12 col-md-12 col-lg-6 col-sm-12"> © 2021 SR Textile. All rights reserved</div>
-                    <div className="col-12 col-md-12 col-lg-6 col-sm-12 text-right">Terms & Conditions | Privacy Policy | Disclaimer</div>
+                    <div className="col-12 col-md-12 col-lg-12 col-xl-6 col-sm-12"> © 2021 SR Textile. All rights reserved</div>
+                    <div className="col-12 col-md-12 col-lg-12 col-xl-6 col-sm-12 termsCond">Terms & Conditions | Privacy Policy | Disclaimer</div>
                 </div>
             </div>
             <img className="water-mark" src={HangerWaterMark} alt="water-mark"/>
