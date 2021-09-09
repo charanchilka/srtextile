@@ -24,13 +24,13 @@ const Caraousel = () => {
 
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <div class="carousel-caption d-block">
+            {/* <div class="carousel-caption d-block">
               <h5>Workspace that inspire</h5>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
                 odio in et, lectus sit lorem id integer.
               </p>
-            </div>
+            </div> */}
             <div
               className="slidingImage"
               style={{
@@ -40,13 +40,13 @@ const Caraousel = () => {
           </div>
 
           <div className="carousel-item">
-          <div class="carousel-caption d-block">
+          {/* <div class="carousel-caption d-block">
               <h5>Workspace that inspire</h5>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
                 odio in et, lectus sit lorem id integer.
               </p>
-            </div>
+            </div> */}
             <div
               className="slidingImage"
               style={{
@@ -56,13 +56,13 @@ const Caraousel = () => {
           </div>
 
           <div className="carousel-item">
-          <div class="carousel-caption d-block">
+          {/* <div class="carousel-caption d-block">
               <h5>Workspace that inspire</h5>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
                 odio in et, lectus sit lorem id integer.
               </p>
-            </div>
+            </div> */}
             <div
               className="slidingImage"
               style={{
@@ -72,13 +72,13 @@ const Caraousel = () => {
           </div>
 
           <div className="carousel-item">
-          <div class="carousel-caption d-block">
+          {/* <div class="carousel-caption d-block">
               <h5>Workspace that inspire</h5>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
                 odio in et, lectus sit lorem id integer.
               </p>
-            </div>
+            </div> */}
             <div
               className="slidingImage"
               style={{
@@ -88,13 +88,13 @@ const Caraousel = () => {
           </div>
 
           <div className="carousel-item">
-          <div class="carousel-caption d-block">
+          {/* <div class="carousel-caption d-block">
               <h5>Workspace that inspire</h5>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
                 odio in et, lectus sit lorem id integer.
               </p>
-            </div>
+            </div> */}
             <div
               className="slidingImage"
               style={{
@@ -104,13 +104,13 @@ const Caraousel = () => {
           </div>
 
           <div className="carousel-item">
-          <div class="carousel-caption d-block">
+          {/* <div class="carousel-caption d-block">
               <h5>Workspace that inspire</h5>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
                 odio in et, lectus sit lorem id integer.
               </p>
-            </div>
+            </div> */}
             <div
               className="slidingImage"
               style={{
@@ -120,13 +120,13 @@ const Caraousel = () => {
           </div>
 
           <div className="carousel-item">
-          <div class="carousel-caption d-block">
+          {/* <div class="carousel-caption d-block">
               <h5>Workspace that inspire</h5>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
                 odio in et, lectus sit lorem id integer.
               </p>
-            </div>
+            </div> */}
             <div
               className="slidingImage"
               style={{
