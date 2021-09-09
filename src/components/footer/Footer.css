@@ -69,6 +69,26 @@ cursor: pointer;
     height: 24px;
     text-align: right;
 }
+.quickAch:visited {
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    color: #D9DBE1;
+}
+.quickAch:link{
+    text-decoration: none;
+    
+    color: #D9DBE1;
+    font-family: 'Inter', sans-serif;
+}
+.quickAch:hover{
+    text-decoration: none;
+    font-weight: 700;
+}
+.quickAch{
+    color: #D9DBE1;
+}
+
 
 
 @media (max-width: 1200px) and (min-width: 300px) {

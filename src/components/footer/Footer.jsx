@@ -59,15 +59,15 @@ const Header = () => {
                             <h3 className="quick-link">Quick Link</h3>
                             <ul>
                                 <li>
-                                    <a href="/about-us" >
+                                    <a className="quickAch" href="/about-us" >
                                         About Us
                                     </a></li>
                                 <li>
-                                    <a href="/infrastructure">
+                                    <a className="quickAch" href="/infrastructure">
                                         Infrastructure
                                     </a></li>
                                 <li>
-                                    <a href="/get-in-touch">
+                                    <a className="quickAch" href="/get-in-touch">
                                         Contact Us
                                     </a>
                                 </li>
