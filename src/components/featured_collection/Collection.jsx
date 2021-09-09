@@ -21,7 +21,7 @@ const FeaturedCollection = () => {
                 
                 {/*  */}
                 <a
-                href="/product-gallery" className="view-button"
+                href="/product-gallery"
                 onClick={() => closeMenuDesktop('promotional_towels')}
                 // onBlur={() => closeMenuDesktop()}
               >
