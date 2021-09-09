@@ -3,6 +3,7 @@ import Footer from "../footer/Footer";
 import "./ProductGallery.css";
 import React from "react";
 import Pattern from '../../Assets/Images/Pattern.svg'
+import Pattern1 from '../../Assets/Images/Pattern1.jpg'
 
 const allProducts = {
      towels:[
@@ -170,6 +171,9 @@ class ProductGallery extends React.Component {
         <div className="productsMainContainer">
         <div className="patternImag">
                 <img src={Pattern} alt="Pattern" />
+            </div>
+        <div className="patternImag1">
+                <img src={Pattern1} alt="Pattern" />
             </div>
         <div className="topHeadline">
             

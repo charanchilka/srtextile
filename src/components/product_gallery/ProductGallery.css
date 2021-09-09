@@ -4,8 +4,16 @@
 }
 .patternImag{
   position: absolute;
-    top: -64px;
-    left: -50px;
+  top: -150px;
+  left: 0px;
+}
+.patternImag1{
+  position: absolute;
+  bottom: -275px;
+    right: 0px;
+}
+.patternImag1 img, .patternImag img{
+  width: 400px;
 }
 .topHeadline{
     margin: 168px auto;
