@@ -36,7 +36,7 @@ color: #003445;
     /* width: 550px; */
     font-weight: 600;
 font-size: 16px;
-line-height: 20px;
+line-height: 30px;
 letter-spacing: 1px;
 color: #003445;
 }
@@ -50,13 +50,13 @@ color: #003445;
     border-radius: 25px;
 }
 .infraMachineInfo{
-    height: 636px;
+    height: 550px;
     background-color: #F5FCFF;
     display: flex;
     align-items: center;
 }
 .infraMachineInfo1{
-    height: 636px;
+    height: 500px;
     background-color: #fff;
     display: flex;
     align-items: center;

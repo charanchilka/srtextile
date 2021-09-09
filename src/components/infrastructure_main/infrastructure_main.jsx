@@ -3,7 +3,6 @@ import Footer from "../footer/Footer";
 import "./infrastructure_main.css";
 import React from "react";
 import InfraMainImg from "../../Assets/Images/infraMainImg.svg";
-import threadInfo from "../../Assets/Images/threadInfo.svg";
 import Slider from "react-slick";
 
 class InfrastructureMain extends React.Component {
@@ -80,7 +79,7 @@ slidesToScroll: 1
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               ></iframe> */}
-              <img src="https://thumbs.gfycat.com/BrownWeeIsabellinewheatear-max-1mb.gif" alt="" />
+              <img src="https://srtextilesimages.netlify.app/gallary/2.gif" alt="gif" />
             </div>
           </div>
           <div className="infraImg">
@@ -91,24 +90,13 @@ slidesToScroll: 1
             <div className="infraDetails">
               <div className="row m-0">
                 <div className="col-lg-6 col-12 col-md-12 col-sm-12 infraMachineCol">
-                  <img src={threadInfo} alt="ThreadInfo" />
+                  <img src="https://srtextilesimages.netlify.app/infrastructure/602.jpg" alt="ThreadInfo" />
                 </div>
                 <div className="col-lg-6 col-12 col-md-12 col-sm-12">
-                  <div className="infraHeading1 mb-4">Heading</div>
+                  <div className="infraHeading1 mb-4">Textile Processing</div>
                   <div className="infraImageDetail mb-3">
-                    To attain customer satisfaction by delivering nothing but
-                    the best, by means of utilizing the highest quality of
-                    resources and world-class systems.
-                  </div>
-                  <div className="infraImageDetail mb-3">
-                    To attain customer satisfaction by delivering nothing but
-                    the best, by means of utilizing the highest quality of
-                    resources and world-class systems.
-                  </div>
-                  <div className="infraImageDetail">
-                    To attain customer satisfaction by delivering nothing but
-                    the best, by means of utilizing the highest quality of
-                    resources and world-class systems.
+                  The plant & machinery is one of the best prevailing in the textile industry.
+The unit has a very good infrastructure with modern machines needed for manufacturing terry towels like Sectional warping, TFO’s, Winding Machines,Zuki, Soft flow dyeing,  Hi-Tech Rapier looms with latest jacquard & dobby.
                   </div>
                 </div>
               </div>
@@ -119,38 +107,47 @@ slidesToScroll: 1
             <div className="infraDetails">
               <div className="row m-0 infraMachineRow">
                 <div className="col-lg-6 col-12 col-md-12 col-sm-12 infraMachineCol1">
-                  <img src={threadInfo} alt="ThreadInfo" />
+                  <img src="https://srtextilesimages.netlify.app/infrastructure/10.jpg" alt="ThreadInfo" />
                 </div>
                 <div className="col-lg-6 col-12 col-md-12 col-sm-12">
-                  <div className="infraHeading1 mb-4">Heading</div>
                   <div className="infraImageDetail mb-3">
-                    To attain customer satisfaction by delivering nothing but
-                    the best, by means of utilizing the highest quality of
-                    resources and world-class systems.
+                  All preliminary processes such as Bleaching, Dyeing and the preparatory process prior to weaving are done with absolute care, under our direct supervision to ensures that only the better quality materials are passed on to the next stage.
                   </div>
                   <div className="infraImageDetail mb-3">
-                    To attain customer satisfaction by delivering nothing but
-                    the best, by means of utilizing the highest quality of
-                    resources and world-class systems.
-                  </div>
-                  <div className="infraImageDetail">
-                    To attain customer satisfaction by delivering nothing but
-                    the best, by means of utilizing the highest quality of
-                    resources and world-class systems.
+                  We are at regular contract with power looms, where we produce maximum 10 tones / month in plain & dobby and jacquard. The number of looms will be extending, upon the order quantity and the lead time.
                   </div>
                 </div>
               </div>
             </div>
           </div>
+
+          <div className="infraMachineInfo">
+            <div className="infraDetails">
+              <div className="row m-0">
+                <div className="col-lg-6 col-12 col-md-12 col-sm-12 infraMachineCol">
+                  <img src="https://srtextilesimages.netlify.app/infrastructure/2.jpg" alt="ThreadInfo" />
+                </div>
+                <div className="col-lg-6 col-12 col-md-12 col-sm-12">
+                  <div className="infraImageDetail mb-3">
+                  Cutting, Stitching, Checking, Packing and Stuffing of container is carried out with the best of manpower. Thus ensures our customers the better quality products.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
           <Slider {...settings}>
-     <img src="https://srtextilesimages.netlify.app/carousal/19.jpg" alt='slider'/>
-     <img src="https://srtextilesimages.netlify.app/carousal/502.jpg" alt='slider'/>
-     <img src="https://srtextilesimages.netlify.app/carousal/22.jpg" alt='slider'/>
-     <img src="https://srtextilesimages.netlify.app/promotional/504.jpg" alt='slider'/>
-     <img src="https://srtextilesimages.netlify.app/carousal/52.jpg" alt='slider'/>
-     <img src="https://srtextilesimages.netlify.app/carousal/46.jpg" alt='slider'/>
-     <img src="https://srtextilesimages.netlify.app/carousal/500.jpg" alt='slider'/>
-     <img src="https://srtextilesimages.netlify.app/carousal/19.jpg" alt='slider'/>
+     <img src="https://srtextilesimages.netlify.app/infrastructure/1.jpg" alt='slider'/>
+     <img src="https://srtextilesimages.netlify.app/infrastructure/2.jpg" alt='slider'/>
+     <img src="https://srtextilesimages.netlify.app/infrastructure/3.jpg" alt='slider'/>
+     <img src="https://srtextilesimages.netlify.app/infrastructure/4.jpg" alt='slider'/>
+     <img src="https://srtextilesimages.netlify.app/infrastructure/88.jpg" alt='slider'/>
+     <img src="https://srtextilesimages.netlify.app/infrastructure/600.jpg" alt='slider'/>
+     <img src="https://srtextilesimages.netlify.app/infrastructure/601.jpg" alt='slider'/>
+     <img src="https://srtextilesimages.netlify.app/infrastructure/602.jpg" alt='slider'/>
+     <img src="https://srtextilesimages.netlify.app/infrastructure/603.jpg" alt='slider'/>
+     <img src="https://srtextilesimages.netlify.app/infrastructure/604.jpg" alt='slider'/>
+     <img src="https://srtextilesimages.netlify.app/infrastructure/605.jpg" alt='slider'/>
  </Slider>
         </div>
         <Footer />

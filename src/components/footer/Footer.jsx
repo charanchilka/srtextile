@@ -22,8 +22,10 @@ const Header = () => {
                     <div className="row g-0 mt-4 iconRow">
                         <div className="col-auto iconMainCol">
                             <span className="iconCont">
+                            <a href="https://www.instagram.com/s.r.textiles/" target="_blank" rel="noopener noreferrer">
                             <img className="socialIcon" src={InstaLink} alt="insta" />
                             <img className="bgIcon" src={InstaIcon} alt="social-media"/> 
+                            </a>
                             </span>
                             </div>
                         {/* <div className="col-auto iconMainCol">
@@ -34,14 +36,18 @@ const Header = () => {
                             </div> */}
                         <div className="col-auto iconMainCol">
                             <span className="iconCont">
+                            <a href="https://www.instagram.com/s.r.textiles/" target="_blank" rel="noopener noreferrer">
                             <img className="socialIcon" src={TwitterLink} alt="insta" />
                             <img className="bgIcon" src={TwitterIcon} alt="social-media"/> 
+                            </a>
                             </span>
                             </div>
                         <div className="col-auto iconMainCol">
                             <span className="iconCont">
+                            <a href="https://www.instagram.com/s.r.textiles/" target="_blank" rel="noopener noreferrer">
                             <img className="socialIcon" src={YoutubeLink} alt="insta" />
                             <img className="bgIcon" src={YoutubeIcon} alt="social-media"/> 
+                            </a>
                             </span>
                             </div>
 
@@ -52,9 +58,19 @@ const Header = () => {
                         <div>
                             <h3 className="quick-link">Quick Link</h3>
                             <ul>
-                                <li>About Us</li>
-                                <li>Infrastructure</li>
-                                <li>Contact Us</li>
+                                <li>
+                                    <a href="/about-us" >
+                                        About Us
+                                    </a></li>
+                                <li>
+                                    <a href="/infrastructure">
+                                        Infrastructure
+                                    </a></li>
+                                <li>
+                                    <a href="/get-in-touch">
+                                        Contact Us
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -63,12 +79,12 @@ const Header = () => {
                         <div>
                             <h3 className="quick-link">Products</h3>
                             <ul>
-                                <li>Towel</li>
-                                <li>Napkins</li>
-                                <li>Bathrobes</li>
-                                <li>Customized Towels</li>
-                                <li>Printed Towels</li>
-                                <li>Door Mat</li>
+                                <li>Dobby Towels</li>
+                                <li>Promotional Towels</li>
+                                <li>Jaquard Towels</li>
+                                <li>Kitchen Towels</li>
+                                <li>Bath Mats</li>
+                                <li>Hospital Supplies</li>
                             </ul>
                         </div>
                     </div>
@@ -77,9 +93,9 @@ const Header = () => {
                         <div>
                             <h3 className="quick-link">Reach Us</h3>
                             <ul className="contactUList">
-                            <li><div className="mr-2 contList"><img src={EmailIcon} alt="Email"/></div><span>contact@srtextilesmills.com</span> </li>
-                            <li><div className="mr-2 contList"><img src={MobileIcon} alt="mobile"/></div><span>+91 9168881268</span> </li>
-                            <li><div className="mr-2 contList"><img src={Location} alt="location"/></div><span>Plot No. 19 Adarsh Nagar Solapur</span> </li>
+                            <li><div className="mr-2 contList"><img src={EmailIcon} alt="Email"/></div><span>contact@srtextilesmill.com</span> </li>
+                            <li><div className="mr-2 contList"><img src={MobileIcon} alt="mobile"/></div><span>+91 9404947907</span> </li>
+                            <li><div className="mr-2 contList"><img src={Location} alt="location"/></div><span>Plot No 19 Adarsh Nagar Solapur</span> </li>
                             </ul>
                         </div>
                     </div>

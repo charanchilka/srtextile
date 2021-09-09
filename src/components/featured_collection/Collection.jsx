@@ -1,6 +1,15 @@
 import "./Collection.css";
 
 const FeaturedCollection = () => {
+  
+
+  const closeMenuDesktop = (productType) => {
+    let product = {
+      type: productType? productType : ''
+    };
+    const { type } = product;
+    localStorage.setItem('productType', type);
+  };
   return (
     <div className="main-collection">
       <div className="row no-gutters mainCollRow">
@@ -9,7 +18,15 @@ const FeaturedCollection = () => {
               <div className="customized-goods-01">IF YOU CAN IMAGINE IT</div>
               <div className="customized-goods-02">WE CAN MANUFACTURE IT</div>
               <div className="view-button-container">
-                <button className="view-button">View More</button>
+                
+                {/*  */}
+                <a
+                href="/product-gallery" className="view-button"
+                onClick={() => closeMenuDesktop('promotional_towels')}
+                // onBlur={() => closeMenuDesktop()}
+              >
+               <button  className="view-button">View More</button>
+              </a>
               </div>
         </div>
         <div className="col-12 col-md-12 col-lg-6 col-sm-12 aboutSecondContent">

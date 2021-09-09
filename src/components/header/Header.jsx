@@ -109,7 +109,7 @@ const Header = (props) => {
                             onClick={() => closeMenu('towels')}
                             onBlur={() => closeMenu()}
                           >
-                            Towels
+                            Dobby Towels
                           </a>
                         </li>
                         <li>
@@ -118,7 +118,7 @@ const Header = (props) => {
                             onClick={() => closeMenu('napkins')}
                             onBlur={() => closeMenu()}
                           >
-                            Napkins
+                            Promotional Towels
                           </a>
                         </li>
                         <li>
@@ -136,7 +136,7 @@ const Header = (props) => {
                             onClick={() => closeMenu('customized')}
                             onBlur={() => closeMenu()}
                           >
-                            Customized Towels
+                            Jaquard Towels
                           </a>
                         </li>
                         <li>
@@ -145,7 +145,7 @@ const Header = (props) => {
                             onClick={() => closeMenu('printed')}
                             onBlur={() => closeMenu()}
                           >
-                            Printed Towels
+                             Kitchen Towels
                           </a>
                         </li>
                         <li>
@@ -154,7 +154,16 @@ const Header = (props) => {
                             onClick={() => closeMenu('kitchenNap')}
                             onBlur={() => closeMenu()}
                           >
-                            Kitchen Napkins
+                             Bath Mats
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="/product-gallery"
+                            onClick={() => closeMenu('doorMat')}
+                            onBlur={() => closeMenu()}
+                          >
+                            Hotel Linens
                           </a>
                         </li>
                         <li>
@@ -210,64 +219,73 @@ const Header = (props) => {
             <li>
               <a
                 href="/product-gallery" className="menuItemsAchDesktop"
-                onClick={() => closeMenuDesktop('towels')}
+                onClick={() => closeMenuDesktop('dobby_towels')}
                 onBlur={() => closeMenuDesktop()}
               >
-                Towels
+                Dobby Towels
               </a>
             </li>
             <li>
               <a
                 href="/product-gallery" className="menuItemsAchDesktop"
-                onClick={() => closeMenuDesktop('napkins')}
+                onClick={() => closeMenuDesktop('promotional_towels')}
                 onBlur={() => closeMenuDesktop()}
               >
-                Napkins
+                Promotional Towels
               </a>
             </li>
             <li>
               <a
                 href="/product-gallery" className="menuItemsAchDesktop"
-                onClick={() => closeMenuDesktop('bathrobes')}
+                onClick={() => closeMenuDesktop('jaquard_towels')}
                 onBlur={() => closeMenuDesktop()}
               >
-                Bathrobes
+                Jaquard Towels
               </a>
             </li>
             <li>
               <a
                 href="/product-gallery" className="menuItemsAchDesktop"
-                onClick={() => closeMenuDesktop('customized')}
+                onClick={() => closeMenuDesktop('kitchen_towels')}
                 onBlur={() => closeMenuDesktop()}
               >
-                Customized Towels
+                Kitchen Towels
               </a>
             </li>
             <li>
               <a
                 href="/product-gallery" className="menuItemsAchDesktop"
-                onClick={() => closeMenuDesktop('printed')}
+                onClick={() => closeMenuDesktop('bath_mats')}
                 onBlur={() => closeMenuDesktop()}
               >
-                Printed Towels
+                Bath Mats
               </a>
             </li>
             <li>
               <a
                 href="/product-gallery" className="menuItemsAchDesktop"
-                onClick={() => closeMenuDesktop('kitchenNap')}
+                onClick={() => closeMenuDesktop('hotel_linens')}
                 onBlur={() => closeMenuDesktop()}
               >
-                Kitchen Napkins
+                Hotel Linens
               </a>
             </li>
             <li>
               <a
                 href="/product-gallery" className="menuItemsAchDesktop"
-                onClick={() => closeMenuDesktop('doorMat')}
+                onClick={() => closeMenuDesktop('beach_towels')}
                 onBlur={() => closeMenuDesktop()}
               >
-                Door Mat
+                Beach Towels
+              </a>
+            </li>
+            <li>
+              <a
+                href="/product-gallery" className="menuItemsAchDesktop"
+                onClick={() => closeMenuDesktop('hospital_supplies')}
+                onBlur={() => closeMenuDesktop()}
+              >
+                Hospital Supplies
               </a>
             </li>
             </ul>
