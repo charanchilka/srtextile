@@ -293,19 +293,33 @@ const allProducts = {
 }
 
 class ProductGallery extends React.Component {
-  state = {
-    navBackground: "bold",
-    productTypeArr :[]
-  };
+    constructor(props){
+        super(props);
+        this.state = {
+            navBackground: "bold",
+            productTypeArr: [],
+            previewOpen: false,
+            modalImg: '',
+        };
+    }
   componentDidMount() {
-    const type = localStorage.getItem('productType');
+    const type = localStorage.getItem("productType");
     // console.log(allProducts[type],'------------------------------------');
-    this.setState({ productTypeArr:allProducts[type] });
+    this.setState({ productTypeArr: allProducts[type] });
     document.addEventListener("scroll", () => {
       const backgroundcolor = window.scrollY < 700 ? "bold" : "bold";
       this.setState({ navBackground: backgroundcolor });
     });
   }
+
+  previewImg = (img) => {
+    this.setState({ previewOpen: true,modalImg: img });
+  };
+
+    closeMenu = () => {
+      this.setState({previewOpen: false})
+    };
+
   render() {
      
 
@@ -328,7 +342,7 @@ class ProductGallery extends React.Component {
             <div className="topNewsImage"   style={{
                 backgroundImage: `url(${item.img})`,
               }}>
-              <div className="visibleLayer">
+              <div className="visibleLayer" onClick={() => this.previewImg(item.img)}>
                 <p className="mb-2 heading">{item.heading}</p>
                 {/* <p className="mb-0 description">{item.description}</p> */}
                 <p className="mb-0 size">Size</p>
@@ -342,6 +356,10 @@ class ProductGallery extends React.Component {
     </div>
         </div>
         <Footer />
+        <div className={this.state.previewOpen?'modalPreview':'d-none'}>
+<div className="closeModel" onClick={() => this.closeMenu()}>X</div>
+            <img src={this.state.modalImg} alt="preview" />
+        </div>
       </div>
     );
   }
