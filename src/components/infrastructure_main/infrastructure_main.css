@@ -45,6 +45,10 @@ color: #003445;
     height: 450px;
     border-radius: 25px;
 }
+.infraGif img{
+    width: 100%;
+    border-radius: 25px;
+}
 .infraMachineInfo{
     height: 636px;
     background-color: #F5FCFF;

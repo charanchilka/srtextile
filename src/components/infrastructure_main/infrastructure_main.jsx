@@ -73,14 +73,14 @@ slidesToScroll: 1
               world-class systems.
             </div>
             <div className="infraGif">
-              <iframe
+              {/* <iframe
                 src="https://www.youtube.com/embed/EKRhXvAoYfU"
                 title="YouTube video player"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
-              ></iframe>
-              {/* <img src="https://thumbs.gfycat.com/BrownWeeIsabellinewheatear-max-1mb.gif" alt="" /> */}
+              ></iframe> */}
+              <img src="https://thumbs.gfycat.com/BrownWeeIsabellinewheatear-max-1mb.gif" alt="" />
             </div>
           </div>
           <div className="infraImg">

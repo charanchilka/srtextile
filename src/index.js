@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import './Assets/Fonts/Milk 400.otf'
+import './Assets/Fonts/Milk light 300.otf'
 import './Assets/Fonts/Milk bold 700.otf'
 
 ReactDOM.render(

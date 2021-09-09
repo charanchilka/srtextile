@@ -3,7 +3,9 @@
     color: #fff;
     font-family: 'LemonMilk';
     font-size: 44px;
-    letter-spacing: 0.52em;
+    /* letter-spacing: 0.52em; */
+    letter-spacing: 16px;
+
     /* font-family: 'Lemon/Milk light', sans-serif; */
 }
 

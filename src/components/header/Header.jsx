@@ -3,6 +3,7 @@ import MainIcon from "../main_icon/MainIcon";
 import HamburgerIcon from "../../Assets/Images/hamburger_white.svg";
 import { useState } from "react";
 
+
 const Header = (props) => {
   // console.log(props); //=== 'normal' ?'logo_font':'logo_font-trans';
   let bg = props.background.navBackground;
@@ -25,8 +26,13 @@ const Header = (props) => {
   const handleToggleDesktop = () => {
     setNavbarOpenDesktop(!navbarOpenDesktop);
   };
-
-  const closeMenuDesktop = () => {
+ 
+  const closeMenuDesktop = (productType) => {
+    let product = {
+      type: productType? productType : ''
+    };
+    const { type } = product;
+    localStorage.setItem('productType', type);
     setNavbarOpenDesktop(false);
   };
 
@@ -94,7 +100,7 @@ const Header = (props) => {
                       <ul>
                         <li>
                           <a
-                            href="/"
+                            href="/product-gallery"
                             onClick={() => closeMenu()}
                             onBlur={() => closeMenu()}
                           >
@@ -103,7 +109,7 @@ const Header = (props) => {
                         </li>
                         <li>
                           <a
-                            href="/"
+                            href="/product-gallery"
                             onClick={() => closeMenu()}
                             onBlur={() => closeMenu()}
                           >
@@ -112,7 +118,7 @@ const Header = (props) => {
                         </li>
                         <li>
                           <a
-                            href="/"
+                            href="/product-gallery"
                             onClick={() => closeMenu()}
                             onBlur={() => closeMenu()}
                           >
@@ -121,7 +127,7 @@ const Header = (props) => {
                         </li>
                         <li>
                           <a
-                            href="/"
+                            href="/product-gallery"
                             onClick={() => closeMenu()}
                             onBlur={() => closeMenu()}
                           >
@@ -130,7 +136,7 @@ const Header = (props) => {
                         </li>
                         <li>
                           <a
-                            href="/"
+                            href="/product-gallery"
                             onClick={() => closeMenu()}
                             onBlur={() => closeMenu()}
                           >
@@ -139,7 +145,7 @@ const Header = (props) => {
                         </li>
                         <li>
                           <a
-                            href="/"
+                            href="/product-gallery"
                             onClick={() => closeMenu()}
                             onBlur={() => closeMenu()}
                           >
@@ -148,7 +154,7 @@ const Header = (props) => {
                         </li>
                         <li>
                           <a
-                            href="/"
+                            href="/product-gallery"
                             onClick={() => closeMenu()}
                             onBlur={() => closeMenu()}
                           >
@@ -198,8 +204,8 @@ const Header = (props) => {
             
             <li>
               <a
-                href="/" className="menuItemsAchDesktop"
-                onClick={() => closeMenuDesktop()}
+                href="/product-gallery" className="menuItemsAchDesktop"
+                onClick={() => closeMenuDesktop('towels')}
                 onBlur={() => closeMenuDesktop()}
               >
                 Towels
@@ -207,8 +213,8 @@ const Header = (props) => {
             </li>
             <li>
               <a
-                href="/" className="menuItemsAchDesktop"
-                onClick={() => closeMenuDesktop()}
+                href="/product-gallery" className="menuItemsAchDesktop"
+                onClick={() => closeMenuDesktop('napkins')}
                 onBlur={() => closeMenuDesktop()}
               >
                 Napkins
@@ -216,8 +222,8 @@ const Header = (props) => {
             </li>
             <li>
               <a
-                href="/" className="menuItemsAchDesktop"
-                onClick={() => closeMenuDesktop()}
+                href="/product-gallery" className="menuItemsAchDesktop"
+                onClick={() => closeMenuDesktop('bathrobes')}
                 onBlur={() => closeMenuDesktop()}
               >
                 Bathrobes
@@ -225,8 +231,8 @@ const Header = (props) => {
             </li>
             <li>
               <a
-                href="/" className="menuItemsAchDesktop"
-                onClick={() => closeMenuDesktop()}
+                href="/product-gallery" className="menuItemsAchDesktop"
+                onClick={() => closeMenuDesktop('customized')}
                 onBlur={() => closeMenuDesktop()}
               >
                 Customized Towels
@@ -234,8 +240,8 @@ const Header = (props) => {
             </li>
             <li>
               <a
-                href="/" className="menuItemsAchDesktop"
-                onClick={() => closeMenuDesktop()}
+                href="/product-gallery" className="menuItemsAchDesktop"
+                onClick={() => closeMenuDesktop('printed')}
                 onBlur={() => closeMenuDesktop()}
               >
                 Printed Towels
@@ -243,8 +249,8 @@ const Header = (props) => {
             </li>
             <li>
               <a
-                href="/" className="menuItemsAchDesktop"
-                onClick={() => closeMenuDesktop()}
+                href="/product-gallery" className="menuItemsAchDesktop"
+                onClick={() => closeMenuDesktop('kitchenNap')}
                 onBlur={() => closeMenuDesktop()}
               >
                 Kitchen Napkins
@@ -252,8 +258,8 @@ const Header = (props) => {
             </li>
             <li>
               <a
-                href="/" className="menuItemsAchDesktop"
-                onClick={() => closeMenuDesktop()}
+                href="/product-gallery" className="menuItemsAchDesktop"
+                onClick={() => closeMenuDesktop('doorMat')}
                 onBlur={() => closeMenuDesktop()}
               >
                 Door Mat
