@@ -4,7 +4,7 @@ import MobileIcon from '../../Assets/Images/Mobile.svg';
 import Location from '../../Assets/Images/Location.svg';
 import HangerWaterMark from '../../Assets/Images/hanger-watermark.svg';
 import InstaIcon from '../../Assets/Images/instagram-icon.svg';
-import DrribleIcon from '../../Assets/Images/dribble-icon.svg';
+// import DrribleIcon from '../../Assets/Images/dribble-icon.svg';
 import TwitterIcon from '../../Assets/Images/twitter-icon.svg';
 import YoutubeIcon from '../../Assets/Images/youtube-icon.svg';
 import InstaLink from '../../Assets/Images/instaLink.svg';
