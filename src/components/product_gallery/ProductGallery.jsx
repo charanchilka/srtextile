@@ -176,7 +176,7 @@ class ProductGallery extends React.Component {
                 <img src={Pattern1} alt="Pattern" />
             </div>
         <div className="topHeadline">
-            
+            <h2 className="productHeading">Collection</h2>
       <div className="row no-gutters mx-0">
       {this.state.productTypeArr.map((item,index)=>{
         return (<div className="col-md-6 col-lg-4 col-12 pb-3 px-2" key={index}>
@@ -185,8 +185,10 @@ class ProductGallery extends React.Component {
                 backgroundImage: `url(${item.img})`,
               }}>
               <div className="visibleLayer">
-                <p className="mb-2">{item.heading}</p>
-                <p className="mb-0 publishDate">{item.description}</p>
+                <p className="mb-2 heading">{item.heading}</p>
+                <p className="mb-0 description">{item.description}</p>
+                <p className="mb-0 size">Size</p>
+                <p className="mb-0 weight">Weight</p>
               </div>
             </div>
          

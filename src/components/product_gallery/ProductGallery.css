@@ -45,9 +45,10 @@
     color: #fff;
     padding: 15px;
     display: flex;
-    align-items: flex-end;
+    
     flex-direction: column;
     justify-content: flex-end;
+    font-family: 'Inter', sans-serif;
   }
   .topNewsImage:hover {
     cursor: pointer;
@@ -55,13 +56,48 @@
   
   }
 
-  @media (max-width: 992px) and (min-width: 576px) {
+.visibleLayer .heading{
+  font-weight: bold;
+font-size: 28px;
+color: #fff;
+align-items: flex-end;
+font-family: 'Inter', sans-serif;
+}
+.visibleLayer .description{
+  /* font-weight: bold; */
+font-size: 18px;
+color: #fff;
+align-items: flex-end;
+font-family: 'Inter', sans-serif;
+}
+.visibleLayer .size,.visibleLayer .weight{
+  /* font-weight: bold; */
+font-size: 18px;
+color: #fff;
+align-items: start;
+font-family: 'Inter', sans-serif;
+}
+.productHeading{
+  color: #003445;
+  font-weight: bold;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 46px;
+    font-family: 'Inter', sans-serif;
+}
+
+  @media (max-width: 992px) and (min-width: 300px) {
     .topHeadline{
-        
+        margin: 84px auto;
         max-width: 992px;
         width: 100%;
     }
-    
+    .patternImag1 img, .patternImag img {
+      width: 200px;
+  }
+  .productHeading{
+    font-size: 36px;
+  }
     
 }
 @media (max-width: 1200px) and (min-width: 992px) {

@@ -19,7 +19,12 @@ const Header = (props) => {
     setNavbarOpen(!navbarOpen);
   };
 
-  const closeMenu = () => {
+  const closeMenu = (productType) => {
+    let product = {
+      type: productType? productType : ''
+    };
+    const { type } = product;
+    localStorage.setItem('productType', type);
     setNavbarOpen(false);
   };
   const [navbarOpenDesktop, setNavbarOpenDesktop] = useState(false);
@@ -101,7 +106,7 @@ const Header = (props) => {
                         <li>
                           <a
                             href="/product-gallery"
-                            onClick={() => closeMenu()}
+                            onClick={() => closeMenu('towels')}
                             onBlur={() => closeMenu()}
                           >
                             Towels
@@ -110,7 +115,7 @@ const Header = (props) => {
                         <li>
                           <a
                             href="/product-gallery"
-                            onClick={() => closeMenu()}
+                            onClick={() => closeMenu('napkins')}
                             onBlur={() => closeMenu()}
                           >
                             Napkins
@@ -119,7 +124,7 @@ const Header = (props) => {
                         <li>
                           <a
                             href="/product-gallery"
-                            onClick={() => closeMenu()}
+                            onClick={() => closeMenu('bathrobes')}
                             onBlur={() => closeMenu()}
                           >
                             Bathrobes
@@ -128,7 +133,7 @@ const Header = (props) => {
                         <li>
                           <a
                             href="/product-gallery"
-                            onClick={() => closeMenu()}
+                            onClick={() => closeMenu('customized')}
                             onBlur={() => closeMenu()}
                           >
                             Customized Towels
@@ -137,7 +142,7 @@ const Header = (props) => {
                         <li>
                           <a
                             href="/product-gallery"
-                            onClick={() => closeMenu()}
+                            onClick={() => closeMenu('printed')}
                             onBlur={() => closeMenu()}
                           >
                             Printed Towels
@@ -146,7 +151,7 @@ const Header = (props) => {
                         <li>
                           <a
                             href="/product-gallery"
-                            onClick={() => closeMenu()}
+                            onClick={() => closeMenu('kitchenNap')}
                             onBlur={() => closeMenu()}
                           >
                             Kitchen Napkins
@@ -155,7 +160,7 @@ const Header = (props) => {
                         <li>
                           <a
                             href="/product-gallery"
-                            onClick={() => closeMenu()}
+                            onClick={() => closeMenu('doorMat')}
                             onBlur={() => closeMenu()}
                           >
                             Door Mat

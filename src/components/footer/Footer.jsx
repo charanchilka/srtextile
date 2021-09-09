@@ -26,12 +26,12 @@ const Header = () => {
                             <img className="bgIcon" src={InstaIcon} alt="social-media"/> 
                             </span>
                             </div>
-                        <div className="col-auto iconMainCol">
+                        {/* <div className="col-auto iconMainCol">
                             <span className="iconCont">
                             <img className="socialIcon" src={DrribleLink} alt="insta" />
                             <img className="bgIcon" src={DrribleIcon} alt="social-media"/> 
                             </span>
-                            </div>
+                            </div> */}
                         <div className="col-auto iconMainCol">
                             <span className="iconCont">
                             <img className="socialIcon" src={TwitterLink} alt="insta" />
