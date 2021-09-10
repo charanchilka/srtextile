@@ -81,7 +81,7 @@ const Header = () => {
                             <ul>
                                 <li>Dobby Towels</li>
                                 <li>Promotional Towels</li>
-                                <li>Jaquard Towels</li>
+                                <li>Jacquard Towels</li>
                                 <li>Kitchen Towels</li>
                                 <li>Bath Mats</li>
                                 <li>Hospital Supplies</li>
@@ -94,7 +94,7 @@ const Header = () => {
                             <h3 className="quick-link">Reach Us</h3>
                             <ul className="contactUList">
                             <li><div className="mr-2 contList"><img src={EmailIcon} alt="Email"/></div><span>contact@srtextilesmill.com</span> </li>
-                            <li><div className="mr-2 contList"><img src={MobileIcon} alt="mobile"/></div><span>+91 9404947907</span> </li>
+                            <li><div className="mr-2 contList"><img src={MobileIcon} alt="mobile"/></div><span><a href="tel:9404947907">+91 9404947907</a></span> </li>
                             <li><div className="mr-2 contList"><img src={Location} alt="location"/></div><span>Plot No 19 Adarsh Nagar Solapur</span> </li>
                             </ul>
                         </div>

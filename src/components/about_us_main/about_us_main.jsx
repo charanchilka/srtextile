@@ -28,7 +28,7 @@ class AboutUsMain extends React.Component {
                 <p className="mb-0">
                 Mr. Rajesham Chilka started the Company named RY Chilka Textiles in 1992, with bare minimum funds. With his confidence, Willpower and fine knowledge about textiles, he initiated with 4 Power Looms and began manufacturing sheets, expanding further by building new looms and infrastructure.
                 </p>
-                
+                <p></p>
                 <p className="mb-0">
                   SR Textiles emerged in the year 2018 under the leadership of Rohan Rajesham Chilka. Trained along with his Father, he grew fond into the Business. Rohan began his entrepreneurial journey by assisting his father with an aim to expand the business globally. His passion about business trade & tricks made him explore further into Bed & Bath collection. The Company has maintained a track record of sound professionalism and has always adhered to international standards.
                 </p>

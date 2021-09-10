@@ -127,7 +127,7 @@ const Header = (props) => {
                             onClick={() => closeMenu('jaquard_towels')}
                             onBlur={() => closeMenu()}
                           >
-                            Jaquard Towels
+                            Jacquard Towels
                           </a>
                         </li>
                         <li>
@@ -240,7 +240,7 @@ const Header = (props) => {
                 onClick={() => closeMenuDesktop('jaquard_towels')}
                 onBlur={() => closeMenuDesktop()}
               >
-                Jaquard Towels
+                Jacquard Towels
               </a>
             </li>
             <li>

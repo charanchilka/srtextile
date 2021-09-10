@@ -101,21 +101,21 @@ const allProducts = {
   kitchen_towels: [
     {
       img: "https://srtextilesimages.netlify.app/kitchen_towel/52.jpg",
-      heading: "Towel",
+      heading: "Kitchen Towels",
       description: `This quality of fabric is used in house hold kitchens which has a Gentle Weave.  These cleaning clothes are an extra absorbent and perfect for drying dishes and wiping up spills, but stylish enough to simply display in your kitchen and can be made in any GSM depending upon quantity required. These towels can be customized in colors design, logo, Packing etc as per client’s requirements.\nStandard sizes - 30x50 cm, 40x60 cm OR any other sizes as per the requirementsṣ`,
       weight: "200gms",
       size: "XL"
     },
     {
       img: "https://srtextilesimages.netlify.app/kitchen_towel/55.jpg",
-      heading: "Towel",
+      heading: "Kitchen Towels",
       description: "Description of towel",
       weight: "200gms",
       size: "XL"
     },
     {
       img: "https://srtextilesimages.netlify.app/kitchen_towel/60.jpg",
-      heading: "Towel",
+      heading: "Kitchen Towels",
       description: "Description of towel",
       weight: "200gms",
       size: "XL"
@@ -161,21 +161,21 @@ const allProducts = {
   hotel_linens: [
     {
       img: "https://srtextilesimages.netlify.app/hotel_bath_linens/1.jpg",
-      heading: "Bath Robes",
+      heading: "Hotel Linens",
       description: "Description of towel",
       weight: "200gms",
       size: "XL"
     },
     {
       img: "https://srtextilesimages.netlify.app/hotel_bath_linens/2.jpg",
-      heading: "Bath Robes",
+      heading: "Hotel Linens",
       description: "Description of towel",
       weight: "200gms",
       size: "XL"
     },
     {
       img: "https://srtextilesimages.netlify.app/hotel_bath_linens/9.jpg",
-      heading: "Bath Robes",
+      heading: "Hotel Linens",
       description: "Description of towel",
       weight: "200gms",
       size: "XL"
@@ -345,8 +345,8 @@ class ProductGallery extends React.Component {
               <div className="visibleLayer" onClick={() => this.previewImg(item.img)}>
                 <p className="mb-2 heading">{item.heading}</p>
                 {/* <p className="mb-0 description">{item.description}</p> */}
-                <p className="mb-0 size">Size</p>
-                <p className="mb-0 weight">Weight</p>
+                {/* <p className="mb-0 size">Size</p> */}
+                {/* <p className="mb-0 weight">Weight</p> */}
               </div>
             </div>
          

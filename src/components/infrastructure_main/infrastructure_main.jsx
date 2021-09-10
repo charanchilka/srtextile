@@ -93,7 +93,7 @@ slidesToScroll: 1
                   <img src="https://srtextilesimages.netlify.app/infrastructure/602.jpg" alt="ThreadInfo" />
                 </div>
                 <div className="col-lg-6 col-12 col-md-12 col-sm-12">
-                  <div className="infraHeading1 mb-4">Textile Processing</div>
+                  <div className="infraHeading1 mb-4">Textile Manufacturing</div>
                   <div className="infraImageDetail mb-3">
                   The plant & machinery is one of the best prevailing in the textile industry.
 The unit has a very good infrastructure with modern machines needed for manufacturing terry towels like Sectional warping, TFO’s, Winding Machines,Zuki, Soft flow dyeing,  Hi-Tech Rapier looms with latest jacquard & dobby.
