@@ -18,7 +18,7 @@ const Header = () => {
             <div className="footer-container">
                 <div className="row g-0">
                     <div className="col-12 col-md-12 col-lg-12 col-xl-3 col-sm-12">
-                    <h2 className="logo">SR TEXTILES</h2>
+                    <h2 className="logo"><b>SR TEXTILES</b></h2>
                     <div className="row g-0 mt-4 iconRow">
                         <div className="col-auto iconMainCol">
                             <span className="iconCont">

@@ -291,7 +291,7 @@ const Header = (props) => {
             </ul>
 
         <div className="col-auto menu_spacing" id="infra">
-          <a href="/infrastructure" className="menuItemsAchDesktop">Infrastucture</a>
+          <a href="/infrastructure" className="menuItemsAchDesktop">Infrastructure</a>
         </div>
         <div className="col-auto menu_spacing_contact" id="contact">
           <a href="/Get-In-Touch" className="menuItemsAchDesktop">Contact</a>

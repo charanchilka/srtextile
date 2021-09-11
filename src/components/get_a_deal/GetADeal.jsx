@@ -34,7 +34,7 @@ const GetDeal = () => {
                  <img src={dealWithUs} alt="" />
               <p className="cards-header my-4">Connect with us & Confirm Deal</p>
               <p className="cards-content">
-              Confirm your deal and create your business oppurtunities.
+              Confirm your deal and create your business opportunities.
               </p>
             </div>
           </div>
