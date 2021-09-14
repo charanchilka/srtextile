@@ -1,8 +1,14 @@
 import "./Carousel.css";
+import Aos from 'aos';
+import {useEffect} from 'react';
 
 const Caraousel = () => {
+useEffect (() => {
+Aos.init({ duration:2000 });
+},[]);
+
   return (
-    <div className="carouselMainContainer">
+    <div data-aos="zoom-out" className="carouselMainContainer">
       <div
         id="carouselExampleIndicators"
         className="carousel slide"

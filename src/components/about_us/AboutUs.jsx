@@ -1,12 +1,18 @@
 import './AboutUs.css';
-
+import Aos from 'aos';
+import {useEffect} from 'react';
 import Bathrob from "../../Assets/Images/bath_rob.svg";
 import Arrow from '../../Assets/Images/Arrow.svg';
 
-const Header = () => {
+const AboutUs = () => {
+    useEffect (() => {
+        Aos.init({ duration:1000 });
+        },[]);
+        
     return (
         <div className="about-us-main">
-            <div className="aboutWidth">
+            <div className="aboutWidth" data-aos="fade-left" data-aos-offset="300"
+ data-aos-easing="ease-in-sine">
             <div className="row no-gutters align-items-center">
                 <div className="col-lg-6 col-12 col-md-12 col-sm-12 collFirstContent">
                  
@@ -29,4 +35,4 @@ const Header = () => {
     )
 }
 
-export default Header;
+export default AboutUs;

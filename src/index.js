@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './Assets/Fonts/Milk light 300.otf'
 import './Assets/Fonts/Milk bold 700.otf'
+import 'aos/dist/aos.css'
 
 ReactDOM.render(
   <React.StrictMode>
