@@ -1,10 +1,15 @@
 import "./GetInTouchSub.css";
 import hangingNap from "../../Assets/Images/hangingNap.svg";
+import Aos from 'aos';
+import {useEffect} from 'react';
 
 const GetInTouchSub = () => {
+  useEffect (() => {
+    Aos.init({ duration:1000,offset:250 });
+    },[]);
   return (
     <div className="getInTouchContainer">
-      <div className="main-style">
+      <div className="main-style"  data-aos="fade-left">
         <div className="row no-gutters touchContainer">
           <div className="col-12 col-md-12 col-lg-6 col-sm-12 d-flex flex-column justify-content-center">
             <div className="get-in-touch-col">

@@ -4,7 +4,7 @@ import {useEffect} from 'react';
 
 const FeaturedCollection = () => {
   useEffect (() => {
-Aos.init({ duration:2000 });
+Aos.init({ duration:1000 ,offset:300});
 },[]);
 
   const closeMenuDesktop = (productType) => {
