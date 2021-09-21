@@ -8,7 +8,7 @@ Aos.init({ duration:2000 });
 },[]);
 
   return (
-    <div data-aos="zoom-out" className="carouselMainContainer">
+    <div data-aos="zoom-in" className="carouselMainContainer">
       <div
         id="carouselExampleIndicators"
         className="carousel slide"

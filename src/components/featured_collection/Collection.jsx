@@ -15,7 +15,7 @@ Aos.init({ duration:1000 ,offset:300});
     localStorage.setItem('productType', type);
   };
   return (
-    <div className="main-collection" data-aos="fade-right">
+    <div className="main-collection" data-aos="fade-down">
       <div className="row no-gutters mainCollRow">
         <div className="col-12 col-md-12 col-lg-6 col-sm-12 aboutFirstContent">
               <p className="featured-collection">Featured Collection</p>

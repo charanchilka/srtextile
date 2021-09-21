@@ -11,7 +11,7 @@ const AboutUs = () => {
         
     return (
         <div className="about-us-main">
-            <div className="aboutWidth" data-aos="fade-left" data-aos-offset="300"
+            <div className="aboutWidth" data-aos="fade-down" data-aos-offset="300"
  data-aos-easing="ease-in-sine">
             <div className="row no-gutters align-items-center">
                 <div className="col-lg-6 col-12 col-md-12 col-sm-12 collFirstContent">
