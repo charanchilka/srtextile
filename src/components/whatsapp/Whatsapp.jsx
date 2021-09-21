@@ -12,7 +12,7 @@ const Whatsapp = () => {
     return ( 
         <div className="whatsapp">
             {/* &text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202. */}
-        <a href="https://api.whatsapp.com/send?phone=919168881268" className="float bounce" target="_blank" rel="noopener noreferrer">
+        <a href="https://api.whatsapp.com/send?phone=919404947907" className="float bounce" target="_blank" rel="noopener noreferrer">
 <i className="fa fa-whatsapp my-float"></i>
 </a>
         </div>

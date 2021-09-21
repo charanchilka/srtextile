@@ -22,7 +22,7 @@
 }
 
 .bounce {
-    animation: bounce 2s infinite;
+    animation: bounce 2s;
     animation-delay: 5s;
   animation-timing-function: ease;
 
