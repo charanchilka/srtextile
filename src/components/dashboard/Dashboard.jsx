@@ -9,6 +9,7 @@ import GetInTouchSub from "../get_in_touch/GetInTouchSub";
 import ReachUsMap from "../reach_us/ReachUsMap";
 import Caraousel from "../carousel/Carousel";
 import SplashScreen from '../splash_screen/SplashScreen';
+import Whatsaspp from '../whatsapp/Whatsapp';
 
 class Dashboard extends React.Component {
 
@@ -41,6 +42,7 @@ class Dashboard extends React.Component {
           <GetInTouchSub />
           <ReachUsMap />
           <Footer />
+          <Whatsaspp/>
         </div>
       );
     }
