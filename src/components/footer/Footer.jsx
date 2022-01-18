@@ -101,7 +101,7 @@ const Header = () => {
                     </div>
                 </div>
                 <div className="row no-gutters copy-right">
-                    <div className="col-12 col-md-12 col-lg-12 col-xl-6 col-sm-12"> © 2021 SR Textile. All rights reserved</div>
+                    <div className="col-12 col-md-12 col-lg-12 col-xl-6 col-sm-12"> © 2021 SR Textiles. All rights reserved</div>
                     <div className="col-12 col-md-12 col-lg-12 col-xl-6 col-sm-12 termsCond">Terms & Conditions | Privacy Policy | Disclaimer</div>
                 </div>
             </div>

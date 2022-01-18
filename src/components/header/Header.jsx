@@ -6,6 +6,7 @@ import { useState } from "react";
 
 const Header = (props) => {
   // console.log(props); //=== 'normal' ?'logo_font':'logo_font-trans';
+
   let bg = props.background.navBackground;
   let color;
   if (bg === "transparent") {
@@ -24,7 +25,9 @@ const Header = (props) => {
       type: productType? productType : ''
     };
     const { type } = product;
-    localStorage.setItem('productType', type);
+    setTimeout(function() {
+      localStorage.setItem('productType', type);
+    }, 0)
     setNavbarOpen(false);
   };
   const [navbarOpenDesktop, setNavbarOpenDesktop] = useState(false);
@@ -37,7 +40,9 @@ const Header = (props) => {
       type: productType? productType : ''
     };
     const { type } = product;
-    localStorage.setItem('productType', type);
+    setTimeout(function() {
+      localStorage.setItem('productType', type);
+    }, 0)
     setNavbarOpenDesktop(false);
   };
 

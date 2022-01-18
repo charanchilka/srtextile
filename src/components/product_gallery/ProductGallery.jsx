@@ -71,28 +71,28 @@ const allProducts = {
   jaquard_towels: [
     {
       img: "https://srtextilesimages.netlify.app/jaquard_towels/30.jpg",
-      heading: "Designer Jaquard Towels",
+      heading: "Designer Jacquard Towels",
       description: `These are the towels with the attractive jacquard designs at the border, yet light-weight towels which gives you a soft and delicate touch\nStandard sizes – 70x140cm OR any other sizes as per requirement`,
       weight: "200gms",
       size: "XL"
     },
     {
       img: "https://srtextilesimages.netlify.app/jaquard_towels/35.jpg",
-      heading: "Designer Jaquard Towels",
+      heading: "Designer Jacquard Towels",
       description: "Description of towel",
       weight: "200gms",
       size: "XL"
     },
     {
       img: "https://srtextilesimages.netlify.app/jaquard_towels/41.jpg",
-      heading: "Designer Jaquard Towels",
+      heading: "Designer Jacquard Towels",
       description: "Description of towel",
       weight: "200gms",
       size: "XL"
     },
     {
       img: "https://srtextilesimages.netlify.app/jaquard_towels/46.jpg",
-      heading: "Designer Jaquard Towels",
+      heading: "Designer Jacquard Towels",
       description: "Description of towel",
       weight: "200gms",
       size: "XL"
@@ -303,8 +303,7 @@ class ProductGallery extends React.Component {
         };
     }
   componentDidMount() {
-    const type = localStorage.getItem("productType");
-    // console.log(allProducts[type],'------------------------------------');
+    const type = localStorage.getItem("productType") === "" ? 'dobby_towels' : localStorage.getItem("productType");
     this.setState({ productTypeArr: allProducts[type] });
     document.addEventListener("scroll", () => {
       const backgroundcolor = window.scrollY < 700 ? "bold" : "bold";
